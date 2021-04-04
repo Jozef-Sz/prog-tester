@@ -1,6 +1,8 @@
 package cli
 
 import (
+	"os"
+
 	"github.com/spf13/cobra"
 )
 
@@ -18,11 +20,9 @@ var (
 
 func Execute() {
 	initCLI()
-	rootCmd.Execute()
-	// if err := rootCmd.Execute(); err != nil {
-	// 	fmt.Fprintln(os.Stderr, err)
-	// 	os.Exit(1)
-	// }
+	if err := rootCmd.Execute(); err != nil {
+		os.Exit(1)
+	}
 }
 
 func initCLI() {

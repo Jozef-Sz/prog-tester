@@ -3,6 +3,7 @@ package cli
 import (
 	"fmt"
 	"strconv"
+	"tester/xml"
 
 	"github.com/spf13/cobra"
 )
@@ -15,6 +16,8 @@ var RunCmd = &cobra.Command{
 }
 
 func runCommand(cmd *cobra.Command, args []string) {
+	testCases := xml.ParseXmlSchema(testSchemaName + ".xml")
+	fmt.Println("Running test with", testCases)
 	fmt.Printf("Running test with %s\n", args[0])
 	fmt.Printf("Save output? %t\n", generateOutput)
 	fmt.Printf("Input %s\n", testSchemaName)

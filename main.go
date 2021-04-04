@@ -1,9 +1,12 @@
 package main
 
 import (
-	"tester/cli"
+	"fmt"
+	"tester/xml"
 )
 
 func main() {
-	cli.Execute()
+	// cli.Execute()
+	testCases := xml.ParseXmlSchema("test_schema.xml")
+	fmt.Println(testCases[0].Args)
 }
