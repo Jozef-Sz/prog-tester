@@ -60,52 +60,52 @@ func TestIncorrectXmlSyntax(t *testing.T) {
 	}
 }
 
-func TestMissingInputInTestcase(t *testing.T) {
-	rawXmlStructure := []byte(`<?xml version="1.0" encoding="UTF-8"?>
-	<tester>
-		<testcase>
-			<args>-r priatel nepriatel</args>
-			<input></input>
-			<expect>Mrs  Hurst and Miss Bingley  and</expect>
-			<exitcode>1</exitcode>
-		</testcase>
-	
-		<testcase>
-			<args>-r "Godzilla vs. Kong" zadanie_4</args>
-			<input>Velmi sa tesim na zadanie_4. Len ci sa take zadanie da vobec pripravit.</input>
-			<expect>Len ci sa take zadanie da vobec pripravit.</expect>
-			<exitcode>0</exitcode>
-		</testcase>
-	</tester>`)
+// func TestMissingInputInTestcase(t *testing.T) {
+// 	rawXmlStructure := []byte(`<?xml version="1.0" encoding="UTF-8"?>
+// 	<tester>
+// 		<testcase>
+// 			<args>-r priatel nepriatel</args>
+// 			<input></input>
+// 			<expect>Mrs  Hurst and Miss Bingley  and</expect>
+// 			<exitcode>1</exitcode>
+// 		</testcase>
 
-	testCases, err := getTestCasesFromXml(rawXmlStructure)
+// 		<testcase>
+// 			<args>-r "Godzilla vs. Kong" zadanie_4</args>
+// 			<input>Velmi sa tesim na zadanie_4. Len ci sa take zadanie da vobec pripravit.</input>
+// 			<expect>Len ci sa take zadanie da vobec pripravit.</expect>
+// 			<exitcode>0</exitcode>
+// 		</testcase>
+// 	</tester>`)
 
-	if len(testCases) != 1 && err != nil {
-		t.Errorf("Test Cases got: %d, expected: 1", len(testCases))
-	}
-}
+// 	testCases, err := getTestCasesFromXml(rawXmlStructure)
 
-func TestMissingExpectInTestcase(t *testing.T) {
-	rawXmlStructure := []byte(`<?xml version="1.0" encoding="UTF-8"?>
-	<tester>
-		<testcase>
-			<args>-r priatel nepriatel</args>
-			<input>The ladies of Longbourn soon waited on those of Netherfield  The</input>
-			<expect>Mrs  Hurst and Miss Bingley  and</expect>
-			<exitcode>1</exitcode>
-		</testcase>
-	
-		<testcase>
-			<args>-r "Godzilla vs. Kong" zadanie_4</args>
-			<input>Velmi sa tesim na zadanie_4. Len ci sa take zadanie da vobec pripravit.</input>
-			<expect></expect>
-			<exitcode>0</exitcode>
-		</testcase>
-	</tester>`)
+// 	if len(testCases) != 1 && err != nil {
+// 		t.Errorf("Test Cases got: %d, expected: 1", len(testCases))
+// 	}
+// }
 
-	testCases, err := getTestCasesFromXml(rawXmlStructure)
+// func TestMissingExpectInTestcase(t *testing.T) {
+// 	rawXmlStructure := []byte(`<?xml version="1.0" encoding="UTF-8"?>
+// 	<tester>
+// 		<testcase>
+// 			<args>-r priatel nepriatel</args>
+// 			<input>The ladies of Longbourn soon waited on those of Netherfield  The</input>
+// 			<expect>Mrs  Hurst and Miss Bingley  and</expect>
+// 			<exitcode>1</exitcode>
+// 		</testcase>
 
-	if len(testCases) != 1 && err != nil {
-		t.Errorf("Test Cases got: %d, expected: 1", len(testCases))
-	}
-}
+// 		<testcase>
+// 			<args>-r "Godzilla vs. Kong" zadanie_4</args>
+// 			<input>Velmi sa tesim na zadanie_4. Len ci sa take zadanie da vobec pripravit.</input>
+// 			<expect></expect>
+// 			<exitcode>0</exitcode>
+// 		</testcase>
+// 	</tester>`)
+
+// 	testCases, err := getTestCasesFromXml(rawXmlStructure)
+
+// 	if len(testCases) != 1 && err != nil {
+// 		t.Errorf("Test Cases got: %d, expected: 1", len(testCases))
+// 	}
+// }
