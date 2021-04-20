@@ -3,12 +3,12 @@
 - tester \<command> \<?value> \<optional args>
 
 ## Available commands
-- run -> runs the test on given executable `tester run <executable>`
-- gen -> generates the required file structure, number represents the count of input entries, it's argument is optional `tester gen <?number>`
+- **run**: runs the test on given executable `tester run <executable>`
+- **gen**: generates the required file structure, number represents the count of input entries, it's argument is optional `tester gen <?number>`
 
 ## Available flags
-- --save-output, -s -> saves the output os the test case to a txt
-- --name, -n        -> specify the name of the input xml file, by default it is test_schema.xml
+- **--save-output**, **-s**: saves the output os the test case to a txt
+- **--name**, **-n**: specify the name of the input xml file, by default it is test_schema.xml
 
 ## Required folder structure
 ```
@@ -20,8 +20,12 @@ WORK_DIR
 
 ## Input file format
 Test cases are specified in xml file. Use this format to add test cases entries.
-- NOTE: If exit code not given, the tester assumes it should be 0.
-- NOTE: Make sure your inputs and expects (only if they are on multiple lines) are indented exactly as you want !!!
+#### NOTES
+- If exit code not given, the tester assumes it should be 0.
+- Every element inside a testcase is omittable, it means that an empty testscase is totally valid, so it will run a testcase with no arguments, empty input, no output is expected and the exitcode should be zero, otherwise the testcase will fail
+- Make sure your inputs and expects (only if they are on multiple lines) are indented exactly as you want it!!!
+
+## Example test_schema.xml
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <tester>
