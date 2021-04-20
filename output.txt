@@ -1,0 +1,14 @@
+TestCase1..........OK
+    args: -r asdf
+    input: aksdjfaie
+
+TestCase2..........FAIL
+    args:
+    input:
+  GOT: ajsdifile askldjfasdf ajsdifilea
+  a sdfasdfa lskdflaksd fjasd
+
+  EXPECTED: askldjf aslkdfj alskdf jasldkf 
+  asd faslkdjf aslkdfj asldkf asldkjf
+
+  Exit code GOT: 1, EXPECTED: 0
