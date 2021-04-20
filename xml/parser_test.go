@@ -60,52 +60,46 @@ func TestIncorrectXmlSyntax(t *testing.T) {
 	}
 }
 
-// func TestMissingInputInTestcase(t *testing.T) {
-// 	rawXmlStructure := []byte(`<?xml version="1.0" encoding="UTF-8"?>
-// 	<tester>
-// 		<testcase>
-// 			<args>-r priatel nepriatel</args>
-// 			<input></input>
-// 			<expect>Mrs  Hurst and Miss Bingley  and</expect>
-// 			<exitcode>1</exitcode>
-// 		</testcase>
+func TestEmptyTestCase(t *testing.T) {
+	rawXmlStructure := []byte(`<?xml version="1.0" encoding="UTF-8"?>
+	<tester>
+		<testcase>
+		</testcase>
+	</tester>`)
 
-// 		<testcase>
-// 			<args>-r "Godzilla vs. Kong" zadanie_4</args>
-// 			<input>Velmi sa tesim na zadanie_4. Len ci sa take zadanie da vobec pripravit.</input>
-// 			<expect>Len ci sa take zadanie da vobec pripravit.</expect>
-// 			<exitcode>0</exitcode>
-// 		</testcase>
-// 	</tester>`)
+	expected := TestCase{
+		"",
+		"",
+		"",
+		0,
+	}
 
-// 	testCases, err := getTestCasesFromXml(rawXmlStructure)
+	testCases, err := getTestCasesFromXml(rawXmlStructure)
 
-// 	if len(testCases) != 1 && err != nil {
-// 		t.Errorf("Test Cases got: %d, expected: 1", len(testCases))
-// 	}
-// }
+	if !testCases[0].equals(expected) && err != nil {
+		t.Errorf("got: %+v, expected: %+v", testCases[0], expected)
+	}
+}
 
-// func TestMissingExpectInTestcase(t *testing.T) {
-// 	rawXmlStructure := []byte(`<?xml version="1.0" encoding="UTF-8"?>
-// 	<tester>
-// 		<testcase>
-// 			<args>-r priatel nepriatel</args>
-// 			<input>The ladies of Longbourn soon waited on those of Netherfield  The</input>
-// 			<expect>Mrs  Hurst and Miss Bingley  and</expect>
-// 			<exitcode>1</exitcode>
-// 		</testcase>
+func TestOmittedInputAndExpect(t *testing.T) {
+	rawXmlStructure := []byte(`<?xml version="1.0" encoding="UTF-8"?>
+	<tester>
+		<testcase>
+			<args>-r hello</args>
+			<exitcode>15</exitcode>
+		</testcase>
+	</tester>`)
 
-// 		<testcase>
-// 			<args>-r "Godzilla vs. Kong" zadanie_4</args>
-// 			<input>Velmi sa tesim na zadanie_4. Len ci sa take zadanie da vobec pripravit.</input>
-// 			<expect></expect>
-// 			<exitcode>0</exitcode>
-// 		</testcase>
-// 	</tester>`)
+	expected := TestCase{
+		"-r hello",
+		"",
+		"",
+		15,
+	}
 
-// 	testCases, err := getTestCasesFromXml(rawXmlStructure)
+	testCases, err := getTestCasesFromXml(rawXmlStructure)
 
-// 	if len(testCases) != 1 && err != nil {
-// 		t.Errorf("Test Cases got: %d, expected: 1", len(testCases))
-// 	}
-// }
+	if !testCases[0].equals(expected) && err != nil {
+		t.Errorf("got: %+v, expected: %+v", testCases[0], expected)
+	}
+}

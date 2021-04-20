@@ -52,19 +52,5 @@ func getTestCasesFromXml(xmlBytes []byte) ([]TestCase, error) {
 	if err != nil {
 		return nil, err
 	}
-	return filterInvalidCases(testCases.All), nil
-}
-
-func filterInvalidCases(testCases []TestCase) []TestCase {
-	var validTests []TestCase
-	for i, t := range testCases {
-		if len(t.Input) == 0 {
-			log.Fatalf("[ERROR]: TestCase %d has empty input, to run the test remove or fill it in.", i+1)
-		} else if len(t.Expect) == 0 {
-			log.Fatalf("[ERROR]: TestCase %d has empty expect, to run the test remove or fill it in.", i+1)
-		} else {
-			validTests = append(validTests, t)
-		}
-	}
-	return validTests
+	return testCases.All, nil
 }
