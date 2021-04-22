@@ -12,3 +12,8 @@ TestCase2..........FAIL
   asd faslkdjf aslkdfj asldkf asldkjf
 
   Exit code GOT: 1, EXPECTED: 0
+  
+TestCase3..........FAIL
+	args:
+	input:
+  ERROR: main.exe: segmentation fault (core dump)

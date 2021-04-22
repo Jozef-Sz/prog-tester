@@ -14,7 +14,7 @@ var rootCmd = &cobra.Command{
 const DEFAULT_SCHEMA_NAME = "test_schema"
 
 var (
-	generateOutput bool
+	discardOutput  bool
 	testSchemaName string
 )
 
@@ -33,6 +33,6 @@ func initCLI() {
 }
 
 func addFlags() {
-	RunCmd.Flags().BoolVarP(&generateOutput, "save-output", "s", false, "Save test case's output to txt")
+	RunCmd.Flags().BoolVarP(&discardOutput, "discard-output", "d", false, "Do not save the output to txt files")
 	RunCmd.Flags().StringVarP(&testSchemaName, "name", "n", DEFAULT_SCHEMA_NAME, "Xml file name of test cases")
 }

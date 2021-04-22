@@ -3,19 +3,16 @@ package cli
 import (
 	"fmt"
 	"strconv"
-	"tester/comparator"
-	"tester/xml"
 
 	"github.com/spf13/cobra"
 )
 
 func runCommand(cmd *cobra.Command, args []string) {
-	testCases := xml.ParseXmlSchema(testSchemaName + ".xml")
-	// for _, testCase := range testCases {
-	// 	fmt.Printf("\"%s\"\n", testCase.Input)
+	// testCases := testcase.GetTestCasesFromSchema(testSchemaName + ".xml")
+	// for _, testcase := range testCases {
+	// 	testcase.evaluate(discardOutput)
 	// }
 
-	comparator.RunTesting(testCases, args[0], generateOutput)
 	// fmt.Printf("Running test with %s\n", args[0])
 	// fmt.Printf("Save output? %t\n", generateOutput)
 }
