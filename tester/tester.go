@@ -21,16 +21,23 @@ func NewTester(testCases []testcase.TestCase, executable string) Tester {
 }
 
 func checkResultSuccess(result *testcase.Result) int {
-	if result.output == "" || result.errorMsg != "" {
+	if result.Output == "" || result.ErrorMsg != "" {
 		return 0
 	}
-	if result.testCase.expect != strings.TrimRight(result.output, " ") {
+	if result.TestCase.Expect != strings.TrimRight(result.Output, " ") {
 		return 0
 	}
-	if result.testCase.exitcode != result.exitCode {
+	if result.TestCase.Exitcode != result.ExitCode {
 		return 0
 	}
 	return 1
 }
 
-func (tester *Tester) EvaluateResults() {}
+func (tester *Tester) EvaluateResults(discardOutput bool) {
+	for _, result := range tester.results {
+		printResult(result)
+		if !discardOutput {
+			// save output and exepected to txt file
+		}
+	}
+}
