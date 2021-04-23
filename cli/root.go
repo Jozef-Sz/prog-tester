@@ -18,18 +18,18 @@ var (
 	testSchemaName string
 )
 
-func Execute() {
-	initCLI()
+func Execute(version string) {
+	initCLI(version)
 	if err := rootCmd.Execute(); err != nil {
 		os.Exit(1)
 	}
 }
 
-func initCLI() {
+func initCLI(version string) {
 	addFlags()
 	rootCmd.AddCommand(RunCmd)
 	rootCmd.AddCommand(GenCmd)
-	rootCmd.AddCommand(VersionCmd)
+	rootCmd.AddCommand(VersionCmd(version))
 }
 
 func addFlags() {

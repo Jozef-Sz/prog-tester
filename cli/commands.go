@@ -12,7 +12,7 @@ import (
 func runCommand(cmd *cobra.Command, args []string) {
 	testCases := testcase.GetTestCasesFromSchema(testSchemaName + ".xml")
 	tester := tester.NewTester(testCases, args[0])
-	tester.EvaluateResults()
+	tester.EvaluateResults(discardOutput)
 }
 
 func genCommand(cmd *cobra.Command, args []string) {

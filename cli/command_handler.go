@@ -30,10 +30,12 @@ var GenCmd = &cobra.Command{
 	Run: genCommand,
 }
 
-var VersionCmd = &cobra.Command{
-	Use:   "version",
-	Short: "print Tester version",
-	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Printf("Tester v%s\n", VERSION)
-	},
+func VersionCmd(version string) *cobra.Command {
+	return &cobra.Command{
+		Use:   "version",
+		Short: "print Tester version",
+		Run: func(cmd *cobra.Command, args []string) {
+			fmt.Printf("Tester v%s\n", version)
+		},
+	}
 }
