@@ -1,6 +1,9 @@
 package testcase
 
-import "tester/xml"
+import (
+	"bytes"
+	"os/exec"
+)
 
 type TestCase struct {
 	id       int
@@ -15,22 +18,46 @@ type Result struct {
 	exitCode int
 	errorMsg string
 	testCase TestCase
+	// redundant property, used only for debug
+	// and for now, it's also used durin printing out results
+	// to make sure the args were split correctly
+	argsUsed []string
 }
 
-func GetTestCasesFromSchema(schemaName string) []TestCase {
-	parsedTestcases := xml.ParseXmlSchema(schemaName)
-	return serializeTestcases(parsedTestcases)
-}
-
-func serializeTestcases(rawTestcases []xml.TestcaseXmlTag) []TestCase {
-	var testCases []TestCase
-	for i, testcase := range rawTestcases {
-		testCases[i] = TestCase{
-			i,
-			testcase.Args,
-			testcase.Input,
-			testcase.Expect,
-			testcase.ExitCode}
+func (testcase *TestCase) Run(exe string) Result {
+	command, argsUsed := createCommand(exe, testcase)
+	output, err := command.Output()
+	exitCode := command.ProcessState.ExitCode()
+	if err != nil {
+		return Result{string(output), exitCode, err.Error(), *testcase, argsUsed}
 	}
-	return testCases
+	return Result{string(output), exitCode, "", *testcase, argsUsed}
+}
+
+func createCommand(exe string, testcase *TestCase) (*exec.Cmd, []string) {
+	var inputBytesBuffer bytes.Buffer
+	inputBytesBuffer.Write([]byte(testcase.input))
+	args := splitArguments(testcase.args)
+	cmd := exec.Command(exe, args...)
+	cmd.Stdin = &inputBytesBuffer
+	return cmd, args
+}
+
+func splitArguments(arguments string) []string {
+	var arglist []string
+	arg := ""
+	insideQuotes := false
+	for _, char := range arguments {
+		if char == '"' {
+			insideQuotes = !insideQuotes
+			continue
+		}
+		if char == ' ' && !insideQuotes {
+			arglist = append(arglist, arg)
+			arg = ""
+		} else {
+			arg += string(char)
+		}
+	}
+	return append(arglist, arg)
 }

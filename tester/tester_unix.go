@@ -1,6 +1,6 @@
 // +build !windows
 
-package comparator
+package tester
 
 func GetExeName(name string) string {
 	return "./" + name

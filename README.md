@@ -92,7 +92,7 @@ TEST FAILED
 OUTPUT:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 Sed eu nisi at nibh semper cursus ac et neque.
-
+----------------------------------------------------------
 EXPECTED:
 Why would you think the doggy is little?
 the doggy is the most big canis familiaris of all.
