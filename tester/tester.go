@@ -1,9 +1,22 @@
 package tester
 
 import (
+	"fmt"
 	"strings"
 	"tester/testcase"
 )
+
+type ResultSuccess int
+
+const (
+	SUCCESSFUL        ResultSuccess = 0
+	OUTPUT_MISMATCH                 = 1
+	EXITCODE_MISMATCH               = 2
+)
+
+func hasFlag(success ResultSuccess, flag ResultSuccess) bool {
+	return (success & flag) != 0
+}
 
 type Tester struct {
 	passed  int
@@ -12,32 +25,36 @@ type Tester struct {
 
 func NewTester(testCases []testcase.TestCase, executable string) Tester {
 	tester := Tester{passed: 0}
-	for i, testcase := range testCases {
+	for _, testcase := range testCases {
 		result := testcase.Run(executable)
-		tester.results[i] = result
-		tester.passed += checkResultSuccess(&result)
+		tester.results = append(tester.results, result)
+
+		if checkResultSuccess(&result) == SUCCESSFUL {
+			tester.passed++
+		}
 	}
 	return tester
 }
 
-func checkResultSuccess(result *testcase.Result) int {
-	if result.Output == "" || result.ErrorMsg != "" {
-		return 0
-	}
+func checkResultSuccess(result *testcase.Result) ResultSuccess {
+	var success ResultSuccess = SUCCESSFUL
+	// TODO: during comparison you have to handle \r\n == \n (windows stuff)
 	if result.TestCase.Expect != strings.TrimRight(result.Output, " ") {
-		return 0
+		fmt.Println("Whaaaattt it does not equals")
+		success |= OUTPUT_MISMATCH
 	}
 	if result.TestCase.Exitcode != result.ExitCode {
-		return 0
+		success |= EXITCODE_MISMATCH
 	}
-	return 1
+	return success
 }
 
 func (tester *Tester) EvaluateResults(discardOutput bool) {
 	for _, result := range tester.results {
-		printResult(result)
+		printTestcaseResult(result)
 		if !discardOutput {
-			// save output and exepected to txt file
+			saveResultToFile(result)
 		}
 	}
+	printTestConslusion(tester)
 }

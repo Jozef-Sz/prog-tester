@@ -10,12 +10,12 @@ func GetTestCasesFromSchema(schemaName string) []TestCase {
 func serializeTestcases(rawTestcases []xml.TestcaseXmlTag) []TestCase {
 	var testCases []TestCase
 	for i, testcase := range rawTestcases {
-		testCases[i] = TestCase{
-			i,
+		testCases = append(testCases, TestCase{
+			i + 1,
 			testcase.Args,
 			testcase.Input,
 			testcase.Expect,
-			testcase.ExitCode}
+			testcase.ExitCode})
 	}
 	return testCases
 }

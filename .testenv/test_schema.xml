@@ -11,7 +11,7 @@
   </testcase>
 
   <testcase>
-    <args>-u -l</args>
+    <args>-l -u</args>
     <exitcode>3</exitcode>
   </testcase>
 
@@ -20,9 +20,8 @@
     <input>jednoVelkeSpojeneSlovo
 
 </input>
-    <expect>jednoVelkeSpojeneSlovo</expect>
-  </testcase>
-
-  <testcase>
+    <expect>jednoVelkeSpojeneSlovo
+</expect>
+    <exitcode>0</exitcode>
   </testcase>
 </tester>

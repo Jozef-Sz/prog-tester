@@ -2,6 +2,7 @@ package testcase
 
 import (
 	"bytes"
+	"fmt"
 	"os/exec"
 	"tester/platform"
 )
@@ -38,6 +39,8 @@ func (testcase *TestCase) Run(exe string) Result {
 func createCommand(exe string, testcase *TestCase) (*exec.Cmd, []string) {
 	var inputBytesBuffer bytes.Buffer
 	inputBytesBuffer.Write([]byte(testcase.Input))
+	fmt.Printf("%s\n", testcase.Input)
+	fmt.Println("-----------")
 	args := splitArguments(testcase.Args)
 	cmd := exec.Command(platform.GetExeName(exe), args...)
 	cmd.Stdin = &inputBytesBuffer
