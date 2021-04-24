@@ -19,6 +19,14 @@ type TestcaseXmlTag struct {
 	ExitCode int    `xml:"exitcode"`
 }
 
+const ERR_HELP_MSG = `Most likely you are trying to use reserved xml tokens.
+Try replace one of these:
+"   &quot;
+'   &apos;
+<   &lt;
+>   &gt;
+&   &amp;`
+
 func ParseXmlSchema(fileName string) []TestcaseXmlTag {
 	xmlFile := openXmlFile(fileName)
 	defer xmlFile.Close()
@@ -41,7 +49,7 @@ func getTestcasesFromXml(xmlBytes []byte) []TestcaseXmlTag {
 	var testcases TesterXmlTag
 	err := xml.Unmarshal(xmlBytes, &testcases)
 	if err != nil {
-		log.Fatalf("[ERROR]: %s.\n", err)
+		log.Fatalf("[ERROR]: %s.\n%s", err, ERR_HELP_MSG)
 	}
 	return testcases.All
 }
