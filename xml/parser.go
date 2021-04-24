@@ -7,18 +7,6 @@ import (
 	"os"
 )
 
-type TesterXmlTag struct {
-	XMLName xml.Name         `xml:"tester"`
-	All     []TestcaseXmlTag `xml:"testcase"`
-}
-
-type TestcaseXmlTag struct {
-	Args     string `xml:"args"`
-	Input    string `xml:"input"`
-	Expect   string `xml:"expect"`
-	ExitCode int    `xml:"exitcode"`
-}
-
 const ERR_HELP_MSG = `Most likely you are trying to use reserved xml tokens.
 Try replace one of these:
 "   &quot;

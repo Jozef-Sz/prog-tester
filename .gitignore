@@ -1,1 +1,4 @@
 bin/
+
+# TestEnv
+.testenv/tester.exe

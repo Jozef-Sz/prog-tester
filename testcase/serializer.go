@@ -13,9 +13,16 @@ func serializeTestcases(rawTestcases []xml.TestcaseXmlTag) []TestCase {
 		testCases = append(testCases, TestCase{
 			i + 1,
 			testcase.Args,
-			testcase.Input,
-			testcase.Expect,
+			appendNewlines(testcase.Input.Value, testcase.Input.Newline),
+			appendNewlines(testcase.Expect.Value, testcase.Expect.Newline),
 			testcase.ExitCode})
 	}
 	return testCases
+}
+
+func appendNewlines(text string, count int) string {
+	for i := 0; i < count; i++ {
+		text += "\n"
+	}
+	return text
 }
