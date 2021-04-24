@@ -23,37 +23,76 @@ WORK_DIR
 Test cases are specified in xml file. Use this format to add test cases entries.
 #### NOTES
 - If exit code not given, the tester assumes it should be 0.
-- Every element/tag inside a <testcase> is omittable, it means that an empty testscase is totally valid, so it will run a testcase with no arguments, empty input, no output is expected and the exitcode should be zero, otherwise the testcase will fail
-- Make sure your inputs and expects (only if they are on multiple lines) are indented exactly as you want it!!!
+- Every element/tag inside a `<testcase>` is omittable, it means that an empty testscase is totally valid, so it will run a testcase with no arguments, empty input, no output is expected and the exitcode should be zero, otherwise the testcase will fail
+- `<input>` and `<expect>` have attribute named **newline**, which is useful when you need enters at the end of you input (or expect), see in example
+- Make sure your inputs and expects (only if they are on multiple lines, see last testcase in the example) are indented exactly as you want it!!!
 
 ## Example test_schema.xml
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <tester>
   <testcase>
-    <args>-r priatel nepriatel</args>
-    <input>The ladies of Longbourn soon waited on those of Netherfield  The
-visit was soon returned in due form  Miss Bennets pleasing
-manners grew on the goodwill of Mrs  Hurst and Miss Bingley  and
-considered with pleasure that it was not likely to be discovered
-by the world in general  since Jane united  with great strength
-of feeling  a composure of temper and a uniform cheerfulness of
-manner which would guard her from the suspicions of the
-impertinent  She mentioned this to her friend Miss Lucas</input>
-    <expect>Mrs  Hurst and Miss Bingley  and
-though the mother was found to be intolerable  and the younger
-sisters not worth speaking to  a wish of being better acquainted
-with  them  was expressed towards the two eldest  By Jane  this
-attention was received with the greatest pleasure  but Elizabeth
-still saw superciliousness in their treatment of everybody</expect>
+    <args>-c -w</args>
     <exitcode>1</exitcode>
   </testcase>
 
   <testcase>
-    <args>-r "Godzilla vs. Kong" zadanie_4</args>
-    <input>Velmi sa tesim na zadanie_4. Len ci sa take zadanie da vobec pripravit.</input>
-    <expect>Len ci sa take zadanie da vobec pripravit.</expect>
-    <exitcode>0</exitcode>
+    <args>-l -u</args>
+    <exitcode>3</exitcode>
+  </testcase>
+
+  <testcase>
+    <args>-a</args>
+    <input newline="2">jednoVelkeSpojeneSlovo</input>
+    <expect newline="1">jednoVelkeSpojeneSlovo</expect>
+  </testcase>
+
+  <testcase>
+    <args>-a</args>
+    <input>slovo        ? + 1 aaa AAA</input>
+    <expect>slovo              aaa AAA</expect>
+  </testcase>
+
+  <testcase>
+    <args>-a</args>
+    <input>   C84ha  .o+t ?i c    W[o ]r .D)</input>
+    <expect>   C  ha   o t  i c    W o  r  D </expect>
+  </testcase>
+
+  <testcase>
+    <args>-c</args>
+    <input newline="2">   *-+ A b e c 8 A llllvs  [e][t]ko{}JeNa   t.lac89e741ne +V+  L??A?V ??O</input>
+    <expect newline="1">AbecAllllvsetkoJeNatlaceneVLAVO</expect>
+  </testcase>
+
+  <testcase>
+    <args>-c</args>
+    <input newline="2">   *-+ A b e c 8 A llllvs  [e][t]ko{}JeNa   t.lac89e741ne +V+  L??A?V ??O</input>
+    <expect newline="1">AbecAllllvsetkoJeNatlaceneVLAVO</expect>
+  </testcase>
+
+  <testcase>
+    <args>-c</args>
+    <input>The ladies of Longbourn soon waited on those of Netherfield  The
+visit was soon returned in due form  Miss Bennets pleasing
+manners grew on the goodwill of Mrs  Hurst and Miss Bingley  and
+though the mother was found to be intolerable  and the younger
+sisters not worth speaking to  a wish of being better acquainted
+with  them  was expressed towards the two eldest  By Jane  this
+attention was received with the greatest pleasure  but Elizabeth
+still saw superciliousness in their treatment of everybody 
+hardly excepting even her sister  and could not like them  though
+their kindness to Jane  such as it was  had a value as arising in</input>
+    <expect>TheladiesofLongbournsoonwaitedonthoseofNetherfieldThe
+visitwassoonreturnedindueformMissBennetspleasing
+mannersgrewonthegoodwillofMrsHurstandMissBingleyand
+thoughthemotherwasfoundtobeintolerableandtheyounger
+sistersnotworthspeakingtoawishofbeingbetteracquainted
+withthemwasexpressedtowardsthetwoeldestByJanethis
+attentionwasreceivedwiththegreatestpleasurebutElizabeth
+stillsawsuperciliousnessintheirtreatmentofeverybody
+hardlyexceptingevenhersisterandcouldnotlikethemthough
+theirkindnesstoJanesuchasitwashadavalueasarisingin</expect>
   </testcase>
 </tester>
 ```
@@ -64,8 +103,8 @@ TestCase1..........OK
 TestCase2..........FAIL
   args: lorem -a --help
   input: dolor sit amet
-  ERROR: segmentation fault (core dump)
   EXIT_CODE: got: 1, expected: 0
+  PROGRAM_EXITED_WITH: segmentation fault (core dump)
 TestCase3..........FAIL
   args: lorem -a --help
   input: dolor sit amet
@@ -78,12 +117,13 @@ TestCase5..........FAIL
   args: lorem -a --help
   input: dolor sit amet
   OUTPUT: not matching with expected
-  EXIT_CODE: got: -132543 expected: 0
+  EXIT_CODE: got: 132543 expected: 0
+  PROGRAM_EXITED_WITH: exit code 132543 
 TestCase6..........OK
 TestCase7..........OK
 TestCase8..........OK
 TestCase9..........OK
-============================================
+==================================================
 Ran 9 tests (passed: 5, failed: 4)
 TEST FAILED
 ```
