@@ -10,7 +10,6 @@ const MAX_INPUT_LEN = 50
 
 func printTestcaseResult(result testcase.Result) {
 	fmt.Printf("TestCase%d..........", result.TestCase.ID)
-	// fmt.Printf("%v", result)
 	resultSuccess := checkResultSuccess(&result)
 	if resultSuccess == 0 {
 		fmt.Print("OK\n")
@@ -35,10 +34,12 @@ func printTestcaseFailures(result testcase.Result, success ResultSuccess) {
 }
 
 func printTestcaseInputs(result testcase.Result) {
-	// TODO: check also for new lines, if there is cut the string and put there ....
 	fmt.Printf("  args: %v\n", result.ArgsUsed)
-	if len(result.Output) > MAX_INPUT_LEN {
+
+	if len(result.TestCase.Input) > MAX_INPUT_LEN {
 		fmt.Printf("  input: %s....\n", result.TestCase.Input[:50])
+	} else if index := strings.Index(result.TestCase.Input, "\n"); index != -1 {
+		fmt.Printf("  input: %s....\n", result.TestCase.Input[:index])
 	} else {
 		fmt.Printf("  input: %s\n", result.TestCase.Input)
 	}

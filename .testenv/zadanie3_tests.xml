@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tester>
+  <testcase>
+    <args>-c -w</args>
+    <exitcode>1</exitcode>
+  </testcase>
+
+  <testcase>
+    <args>-r</args>
+    <exitcode>2</exitcode>
+  </testcase>
+
+  <testcase>
+    <args>-l -u</args>
+    <exitcode>3</exitcode>
+  </testcase>
+
+  <testcase>
+    <args>-a</args>
+    <input newline="2">jednoVelkeSpojeneSlovo</input>
+    <expect newline="1">jednoVelkeSpojeneSlovo</expect>
+  </testcase>
+
+  <testcase>
+    <args>-a</args>
+    <input newline="2">slovo        ? + 1 aaa AAA</input>
+    <expect newline="1">slovo              aaa AAA</expect>
+  </testcase>
+
+  <testcase>
+    <args>-a</args>
+    <input newline="2">   C84ha  .o+t ?i c    W[o ]r .D)</input>
+    <expect newline="1">   C  ha   o t  i c    W o  r  D </expect>
+  </testcase>
+
+  <testcase>
+    <args>-c</args>
+    <input newline="2">   *-+ A b e c 8 A llllvs  [e][t]ko{}JeNa   t.lac89e741ne +V+  L??A?V ??O</input>
+    <expect newline="1">AbecAllllvsetkoJeNatlaceneVLAVO</expect>
+  </testcase>
+
+  <testcase>
+    <args>-c</args>
+    <input newline="2">n  /a\/a\a  =D 12345 h &lt;--- e ---&gt; Ra</input>
+    <expect newline="1">naaaDheRa</expect>
+  </testcase>
+
+  <testcase>
+    <args>-c</args>
+    <input newline="2"> + .....?</input>
+    <expect newline="1"></expect>
+  </testcase>
+
+  <testcase>
+    <args>-u -c -a -r " [del] " THE OF WAS TO AND in a IT Her</args>
+    <input newline="2">The ladies of Longbourn soon waited on those of Netherfield. The
+visit was soon returned in due form. Miss Bennets pleasing
+manners grew on the goodwill of Mrs. Hurst and Miss Bingley; and
+though the mother was found to be intolerable, and the younger
+sisters not worth speaking to, a wish of being better acquainted
+with _them_ was expressed towards the two eldest. By Jane, this
+attention was received with the greatest pleasure, but Elizabeth
+still saw superciliousness in their treatment of everybody,
+hardly excepting even her sister, and could not like them; though
+their kindness to Jane, such as it was, had a value as arising in
+all probability from the influence of their brothers admiration.
+It was generally evident whenever they met, that he _did_ admire
+her and to _her_ it was equally evident that Jane was yielding to
+the preference which she had begun to entertain for him from the
+first, and was in a way to be very much in love; but she
+considered with pleasure that it was not likely to be discovered
+by the world in general, since Jane united, with great strength
+of feeling, a composure of temper and a uniform cheerfulness of
+manner which would guard her from the suspicions of the
+impertinent. She mentioned this to her friend Miss Lucas.</input>
+    <expect newline="1"> [del] LADIES [del] LONGBOURNSOONWA [del] EDONTHOSE [del] NE [del] RFIELD [del] 
+VIS [del]  [del] SOONRETURNEDINDUEFORMMISSBENNETSPLEASING
+MANNERSGREWON [del] GOODWILL [del] MRSHURST [del] MISSBINGLEY [del] 
+THOUGH [del] MO [del] R [del] FOUND [del] BEIN [del] LERABLE [del]  [del] YOUNGER
+SISTERSNOTWORTHSPEAKING [del] AWISH [del] BEINGBETTERACQUAINTED
+W [del] H [del] M [del] EXPRESSED [del] WARDS [del] TWOELDESTBYJANETHIS
+ATTENTION [del] RECEIVEDW [del] H [del] GREATESTPLEASUREBUTELIZABETH
+STILLSAWSUPERCILIOUSNESSIN [del] IRTREATMENT [del] EVERYBODY
+HARDLYEXCEPTINGEVENHERSISTER [del] COULDNOTLIKE [del] MTHOUGH
+ [del] IRKINDNESS [del] JANESUCHAS [del]  [del] HADAVALUEASARISINGIN
+ALLPROBABIL [del] YFROM [del] INFLUENCE [del]  [del] IRBRO [del] RSADMIRATION
+ [del]  [del] GENERALLYEVIDENTWHENEVER [del] YMETTHA [del] DIDADMIRE
+HER [del]  [del] HER [del]  [del] EQUALLYEVIDENTTHATJANE [del] YIELDING [del] 
+ [del] PREFERENCEWHICHSHEHADBEGUN [del] ENTERTAINFORHIMFROM [del] 
+FIRST [del]  [del] INAWAY [del] BEVERYMUCHINLOVEBUTSHE
+CONSIDEREDW [del] HPLEASURETHAT [del]  [del] NOTLIKELY [del] BEDISCOVERED
+BY [del] WORLDINGENERALSINCEJANEUN [del] EDW [del] HGREATSTRENGTH
+ [del] FEELINGACOMPOSURE [del] TEMPER [del] AUNIFORMCHEERFULNESS [del] 
+MANNERWHICHWOULDGUARDHERFROM [del] SUSPICIONS [del]  [del] 
+IMPERTINENTSHEMENTIONEDTHIS [del] HERFRIENDMISSLUCAS</expect>
+  </testcase>
+</tester>
