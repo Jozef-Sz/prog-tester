@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tester>
+  <testcase>
+    <args>Kong 1 124</args>
+    <expect>Kong, ATT:220, DEF:180, HP:500, LVL:0
+[0] Submarine, ATT:105, DEF:65, HP:68, LVL:6
+
+Kong => 72 => [0] Submarine
+
+Kong, ATT:220, DEF:180, HP:500, LVL:1
+[0] Submarine, ATT:105, DEF:65, HP:-4, LVL:6
+
+Winner: Kong
+Total monster DMG: 72
+Total enemies DMG: 0</expect>
+  </testcase>
+</tester>

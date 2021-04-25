@@ -50,9 +50,7 @@ func checkResultSuccess(result *testcase.Result) ResultSuccess {
 func (tester *Tester) EvaluateResults(discardOutput bool) {
 	for _, result := range tester.results {
 		printTestcaseResult(result)
-		if !discardOutput {
-			saveResultToFile(result)
-		}
 	}
 	printTestConslusion(tester)
+	saveTestResults(tester.results, !discardOutput)
 }
