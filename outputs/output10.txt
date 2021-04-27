@@ -1,0 +1,297 @@
+OUTPUT:
+Godzilla, ATT:200, DEF:220, HP:500, LVL:0
+[0] Bomber, ATT:120, DEF:100, HP:94, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:58, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:94, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:67, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 55 => [1] Bomber
+[0] Bomber => 14 => Godzilla
+[1] Bomber => 11 => Godzilla
+[2] Tank => 6 => Godzilla
+[3] Submarine => 20 => Godzilla
+[4] Cruiser => 18 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:431, LVL:1
+[0] Bomber, ATT:120, DEF:100, HP:94, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:3, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:94, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:67, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 83 => [1] Bomber
+[0] Bomber => 26 => Godzilla
+[2] Tank => 13 => Godzilla
+[3] Submarine => 16 => Godzilla
+[4] Cruiser => 24 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:352, LVL:2
+[0] Bomber, ATT:120, DEF:100, HP:94, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:94, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:67, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 60 => [3] Submarine
+[0] Bomber => 24 => Godzilla
+[2] Tank => 11 => Godzilla
+[3] Submarine => 13 => Godzilla
+[4] Cruiser => 23 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:281, LVL:3
+[0] Bomber, ATT:120, DEF:100, HP:94, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:94, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:7, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 65 => [3] Submarine
+[0] Bomber => 19 => Godzilla
+[2] Tank => 10 => Godzilla
+[4] Cruiser => 17 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:235, LVL:4
+[0] Bomber, ATT:120, DEF:100, HP:94, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:94, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:-58, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 31 => [0] Bomber
+[0] Bomber => 21 => Godzilla
+[2] Tank => 13 => Godzilla
+[4] Cruiser => 20 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:181, LVL:5
+[0] Bomber, ATT:120, DEF:100, HP:63, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:94, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:-58, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 29 => [0] Bomber
+[0] Bomber => 16 => Godzilla
+[2] Tank => 12 => Godzilla
+[4] Cruiser => 20 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:133, LVL:6
+[0] Bomber, ATT:120, DEF:100, HP:34, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:94, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:-58, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 43 => [0] Bomber
+[2] Tank => 10 => Godzilla
+[4] Cruiser => 24 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:99, LVL:7
+[0] Bomber, ATT:120, DEF:100, HP:-9, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:94, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:-58, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 53 => [2] Tank
+[2] Tank => 12 => Godzilla
+[4] Cruiser => 17 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:70, LVL:8
+[0] Bomber, ATT:120, DEF:100, HP:-9, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:41, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:-58, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 53 => [2] Tank
+[4] Cruiser => 22 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:48, LVL:9
+[0] Bomber, ATT:120, DEF:100, HP:-9, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:-12, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:-58, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 37 => [4] Cruiser
+[4] Cruiser => 18 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:30, LVL:10
+[0] Bomber, ATT:120, DEF:100, HP:-9, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:-12, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:-58, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:59, LVL:9
+
+Godzilla => 48 => [4] Cruiser
+[4] Cruiser => 18 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:12, LVL:10
+[0] Bomber, ATT:120, DEF:100, HP:-9, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:-12, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:-58, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:11, LVL:9
+
+Godzilla => 50 => [4] Cruiser
+
+Godzilla, ATT:200, DEF:220, HP:12, LVL:10
+[0] Bomber, ATT:120, DEF:100, HP:-9, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:-12, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:-58, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:-39, LVL:9
+
+Winner: Godzilla
+Total monster DMG: 607
+Total enemies DMG: 488
+--------------------------------------------------
+EXPECTED:
+Godzilla, ATT:200, DEF:220, HP:500, LVL:0
+[0] Bomber, ATT:120, DEF:100, HP:94, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:58, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:94, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:67, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 55 => [1] Bomber
+[0] Bomber => 14 => Godzilla
+[1] Bomber => 11 => Godzilla
+[2] Tank => 6 => Godzilla
+[3] Submarine => 20 => Godzilla
+[4] Cruiser => 18 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:431, LVL:1
+[0] Bomber, ATT:120, DEF:100, HP:94, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:3, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:94, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:67, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 83 => [1] Bomber
+[0] Bomber => 26 => Godzilla
+[2] Tank => 13 => Godzilla
+[3] Submarine => 16 => Godzilla
+[4] Cruiser => 24 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:352, LVL:2
+[0] Bomber, ATT:120, DEF:100, HP:94, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:94, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:67, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 60 => [3] Submarine
+[0] Bomber => 24 => Godzilla
+[2] Tank => 11 => Godzilla
+[3] Submarine => 13 => Godzilla
+[4] Cruiser => 23 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:281, LVL:3
+[0] Bomber, ATT:120, DEF:100, HP:94, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:94, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:7, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 65 => [3] Submarine
+[0] Bomber => 19 => Godzilla
+[2] Tank => 10 => Godzilla
+[4] Cruiser => 17 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:235, LVL:4
+[0] Bomber, ATT:120, DEF:100, HP:94, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:94, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:-58, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 31 => [0] Bomber
+[0] Bomber => 21 => Godzilla
+[2] Tank => 13 => Godzilla
+[4] Cruiser => 20 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:181, LVL:5
+[0] Bomber, ATT:120, DEF:100, HP:63, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:94, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:-58, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 29 => [0] Bomber
+[0] Bomber => 16 => Godzilla
+[2] Tank => 12 => Godzilla
+[4] Cruiser => 20 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:133, LVL:6
+[0] Bomber, ATT:120, DEF:100, HP:34, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:94, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:-58, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 43 => [0] Bomber
+[2] Tank => 10 => Godzilla
+[4] Cruiser => 24 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:99, LVL:7
+[0] Bomber, ATT:120, DEF:100, HP:-9, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:94, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:-58, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 53 => [2] Tank
+[2] Tank => 12 => Godzilla
+[4] Cruiser => 17 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:70, LVL:8
+[0] Bomber, ATT:120, DEF:100, HP:-9, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:41, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:-58, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 53 => [2] Tank
+[4] Cruiser => 22 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:48, LVL:9
+[0] Bomber, ATT:120, DEF:100, HP:-9, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:-12, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:-58, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:96, LVL:9
+
+Godzilla => 37 => [4] Cruiser
+[4] Cruiser => 18 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:30, LVL:10
+[0] Bomber, ATT:120, DEF:100, HP:-9, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:-12, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:-58, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:59, LVL:9
+
+Godzilla => 48 => [4] Cruiser
+[4] Cruiser => 18 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:12, LVL:10
+[0] Bomber, ATT:120, DEF:100, HP:-9, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:-12, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:-58, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:11, LVL:9
+
+Godzilla => 50 => [4] Cruiser
+
+Godzilla, ATT:200, DEF:220, HP:12, LVL:10
+[0] Bomber, ATT:120, DEF:100, HP:-9, LVL:10
+[1] Bomber, ATT:120, DEF:100, HP:-80, LVL:0
+[2] Tank, ATT:65, DEF:100, HP:-12, LVL:0
+[3] Submarine, ATT:105, DEF:65, HP:-58, LVL:2
+[4] Cruiser, ATT:100, DEF:75, HP:-39, LVL:9
+
+Winner: Godzilla
+Total monster DMG: 607
+Total enemies DMG: 488

@@ -1,0 +1,61 @@
+OUTPUT:
+Kong, ATT:220, DEF:180, HP:500, LVL:0
+[0] Fighter, ATT:110, DEF:110, HP:100, LVL:8
+
+Kong => 25 => [0] Fighter
+[0] Fighter => 17 => Kong
+
+Kong, ATT:220, DEF:180, HP:483, LVL:1
+[0] Fighter, ATT:110, DEF:110, HP:75, LVL:8
+
+Kong => 33 => [0] Fighter
+[0] Fighter => 12 => Kong
+
+Kong, ATT:220, DEF:180, HP:471, LVL:2
+[0] Fighter, ATT:110, DEF:110, HP:42, LVL:8
+
+Kong => 38 => [0] Fighter
+[0] Fighter => 20 => Kong
+
+Kong, ATT:220, DEF:180, HP:451, LVL:3
+[0] Fighter, ATT:110, DEF:110, HP:4, LVL:8
+
+Kong => 73 => [0] Fighter
+
+Kong, ATT:220, DEF:180, HP:451, LVL:4
+[0] Fighter, ATT:110, DEF:110, HP:-69, LVL:8
+
+Winner: Kong
+Total monster DMG: 169
+Total enemies DMG: 49
+--------------------------------------------------
+EXPECTED:
+Kong, ATT:220, DEF:180, HP:500, LVL:0
+[0] Fighter, ATT:110, DEF:110, HP:100, LVL:8
+
+Kong => 25 => [0] Fighter
+[0] Fighter => 17 => Kong
+
+Kong, ATT:220, DEF:180, HP:483, LVL:1
+[0] Fighter, ATT:110, DEF:110, HP:75, LVL:8
+
+Kong => 33 => [0] Fighter
+[0] Fighter => 12 => Kong
+
+Kong, ATT:220, DEF:180, HP:471, LVL:2
+[0] Fighter, ATT:110, DEF:110, HP:42, LVL:8
+
+Kong => 38 => [0] Fighter
+[0] Fighter => 20 => Kong
+
+Kong, ATT:220, DEF:180, HP:451, LVL:3
+[0] Fighter, ATT:110, DEF:110, HP:4, LVL:8
+
+Kong => 73 => [0] Fighter
+
+Kong, ATT:220, DEF:180, HP:451, LVL:4
+[0] Fighter, ATT:110, DEF:110, HP:-69, LVL:8
+
+Winner: Kong
+Total monster DMG: 169
+Total enemies DMG: 49

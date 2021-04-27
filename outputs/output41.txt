@@ -1,0 +1,217 @@
+OUTPUT:
+
+--------------------------------------------------
+EXPECTED:
+Kong, ATT:220, DEF:180, HP:500, LVL:0
+[0] LadyGaga, ATT:15, DEF:5, HP:94, LVL:1
+[1] ForrestGump, ATT:10, DEF:10, HP:99, LVL:2
+[2] HomerSimpson, ATT:40, DEF:20, HP:63, LVL:9
+[3] ForrestGump, ATT:10, DEF:10, HP:63, LVL:4
+[4] SantaClaus, ATT:30, DEF:20, HP:80, LVL:6
+[5] Pikachu, ATT:50, DEF:10, HP:84, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:95, LVL:4
+[7] LacoMelisko, ATT:5, DEF:5, HP:92, LVL:10
+
+Kong => 76 => [2] HomerSimpson
+[0] LadyGaga => 10 => Kong
+[1] ForrestGump => 10 => Kong
+[3] ForrestGump => 9 => Kong
+[4] SantaClaus => 11 => Kong
+[5] Pikachu => 8 => Kong
+[6] ForrestGump => 11 => Kong
+[7] LacoMelisko => 10 => Kong
+
+Kong, ATT:220, DEF:180, HP:431, LVL:1
+[0] LadyGaga, ATT:15, DEF:5, HP:94, LVL:1
+[1] ForrestGump, ATT:10, DEF:10, HP:99, LVL:2
+[2] HomerSimpson, ATT:40, DEF:20, HP:-13, LVL:9
+[3] ForrestGump, ATT:10, DEF:10, HP:63, LVL:4
+[4] SantaClaus, ATT:30, DEF:20, HP:80, LVL:6
+[5] Pikachu, ATT:50, DEF:10, HP:84, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:95, LVL:4
+[7] LacoMelisko, ATT:5, DEF:5, HP:92, LVL:10
+
+Kong => 111 => [3] ForrestGump
+[0] LadyGaga => 9 => Kong
+[1] ForrestGump => 11 => Kong
+[4] SantaClaus => 11 => Kong
+[5] Pikachu => 9 => Kong
+[6] ForrestGump => 14 => Kong
+[7] LacoMelisko => 14 => Kong
+
+Kong, ATT:220, DEF:180, HP:363, LVL:2
+[0] LadyGaga, ATT:15, DEF:5, HP:94, LVL:1
+[1] ForrestGump, ATT:10, DEF:10, HP:99, LVL:2
+[2] HomerSimpson, ATT:40, DEF:20, HP:-13, LVL:9
+[3] ForrestGump, ATT:10, DEF:10, HP:-48, LVL:4
+[4] SantaClaus, ATT:30, DEF:20, HP:80, LVL:6
+[5] Pikachu, ATT:50, DEF:10, HP:84, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:95, LVL:4
+[7] LacoMelisko, ATT:5, DEF:5, HP:92, LVL:10
+
+Kong => 67 => [4] SantaClaus
+[0] LadyGaga => 7 => Kong
+[1] ForrestGump => 6 => Kong
+[4] SantaClaus => 9 => Kong
+[5] Pikachu => 22 => Kong
+[6] ForrestGump => 7 => Kong
+[7] LacoMelisko => 8 => Kong
+
+Kong, ATT:220, DEF:180, HP:304, LVL:3
+[0] LadyGaga, ATT:15, DEF:5, HP:94, LVL:1
+[1] ForrestGump, ATT:10, DEF:10, HP:99, LVL:2
+[2] HomerSimpson, ATT:40, DEF:20, HP:-13, LVL:9
+[3] ForrestGump, ATT:10, DEF:10, HP:-48, LVL:4
+[4] SantaClaus, ATT:30, DEF:20, HP:13, LVL:6
+[5] Pikachu, ATT:50, DEF:10, HP:84, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:95, LVL:4
+[7] LacoMelisko, ATT:5, DEF:5, HP:92, LVL:10
+
+Kong => 80 => [4] SantaClaus
+[0] LadyGaga => 10 => Kong
+[1] ForrestGump => 11 => Kong
+[5] Pikachu => 9 => Kong
+[6] ForrestGump => 13 => Kong
+[7] LacoMelisko => 15 => Kong
+
+Kong, ATT:220, DEF:180, HP:246, LVL:4
+[0] LadyGaga, ATT:15, DEF:5, HP:94, LVL:1
+[1] ForrestGump, ATT:10, DEF:10, HP:99, LVL:2
+[2] HomerSimpson, ATT:40, DEF:20, HP:-13, LVL:9
+[3] ForrestGump, ATT:10, DEF:10, HP:-48, LVL:4
+[4] SantaClaus, ATT:30, DEF:20, HP:-67, LVL:6
+[5] Pikachu, ATT:50, DEF:10, HP:84, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:95, LVL:4
+[7] LacoMelisko, ATT:5, DEF:5, HP:92, LVL:10
+
+Kong => 116 => [5] Pikachu
+[0] LadyGaga => 11 => Kong
+[1] ForrestGump => 14 => Kong
+[6] ForrestGump => 11 => Kong
+[7] LacoMelisko => 12 => Kong
+
+Kong, ATT:220, DEF:180, HP:198, LVL:5
+[0] LadyGaga, ATT:15, DEF:5, HP:94, LVL:1
+[1] ForrestGump, ATT:10, DEF:10, HP:99, LVL:2
+[2] HomerSimpson, ATT:40, DEF:20, HP:-13, LVL:9
+[3] ForrestGump, ATT:10, DEF:10, HP:-48, LVL:4
+[4] SantaClaus, ATT:30, DEF:20, HP:-67, LVL:6
+[5] Pikachu, ATT:50, DEF:10, HP:-32, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:95, LVL:4
+[7] LacoMelisko, ATT:5, DEF:5, HP:92, LVL:10
+
+Kong => 84 => [7] LacoMelisko
+[0] LadyGaga => 10 => Kong
+[1] ForrestGump => 16 => Kong
+[6] ForrestGump => 11 => Kong
+[7] LacoMelisko => 10 => Kong
+
+Kong, ATT:220, DEF:180, HP:151, LVL:6
+[0] LadyGaga, ATT:15, DEF:5, HP:94, LVL:1
+[1] ForrestGump, ATT:10, DEF:10, HP:99, LVL:2
+[2] HomerSimpson, ATT:40, DEF:20, HP:-13, LVL:9
+[3] ForrestGump, ATT:10, DEF:10, HP:-48, LVL:4
+[4] SantaClaus, ATT:30, DEF:20, HP:-67, LVL:6
+[5] Pikachu, ATT:50, DEF:10, HP:-32, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:95, LVL:4
+[7] LacoMelisko, ATT:5, DEF:5, HP:8, LVL:10
+
+Kong => 83 => [7] LacoMelisko
+[0] LadyGaga => 7 => Kong
+[1] ForrestGump => 11 => Kong
+[6] ForrestGump => 15 => Kong
+
+Kong, ATT:220, DEF:180, HP:118, LVL:7
+[0] LadyGaga, ATT:15, DEF:5, HP:94, LVL:1
+[1] ForrestGump, ATT:10, DEF:10, HP:99, LVL:2
+[2] HomerSimpson, ATT:40, DEF:20, HP:-13, LVL:9
+[3] ForrestGump, ATT:10, DEF:10, HP:-48, LVL:4
+[4] SantaClaus, ATT:30, DEF:20, HP:-67, LVL:6
+[5] Pikachu, ATT:50, DEF:10, HP:-32, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:95, LVL:4
+[7] LacoMelisko, ATT:5, DEF:5, HP:-75, LVL:10
+
+Kong => 78 => [0] LadyGaga
+[0] LadyGaga => 10 => Kong
+[1] ForrestGump => 10 => Kong
+[6] ForrestGump => 10 => Kong
+
+Kong, ATT:220, DEF:180, HP:88, LVL:8
+[0] LadyGaga, ATT:15, DEF:5, HP:16, LVL:1
+[1] ForrestGump, ATT:10, DEF:10, HP:99, LVL:2
+[2] HomerSimpson, ATT:40, DEF:20, HP:-13, LVL:9
+[3] ForrestGump, ATT:10, DEF:10, HP:-48, LVL:4
+[4] SantaClaus, ATT:30, DEF:20, HP:-67, LVL:6
+[5] Pikachu, ATT:50, DEF:10, HP:-32, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:95, LVL:4
+[7] LacoMelisko, ATT:5, DEF:5, HP:-75, LVL:10
+
+Kong => 113 => [0] LadyGaga
+[1] ForrestGump => 10 => Kong
+[6] ForrestGump => 14 => Kong
+
+Kong, ATT:220, DEF:180, HP:64, LVL:9
+[0] LadyGaga, ATT:15, DEF:5, HP:-97, LVL:1
+[1] ForrestGump, ATT:10, DEF:10, HP:99, LVL:2
+[2] HomerSimpson, ATT:40, DEF:20, HP:-13, LVL:9
+[3] ForrestGump, ATT:10, DEF:10, HP:-48, LVL:4
+[4] SantaClaus, ATT:30, DEF:20, HP:-67, LVL:6
+[5] Pikachu, ATT:50, DEF:10, HP:-32, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:95, LVL:4
+[7] LacoMelisko, ATT:5, DEF:5, HP:-75, LVL:10
+
+Kong => 89 => [6] ForrestGump
+[1] ForrestGump => 9 => Kong
+[6] ForrestGump => 9 => Kong
+
+Kong, ATT:220, DEF:180, HP:46, LVL:10
+[0] LadyGaga, ATT:15, DEF:5, HP:-97, LVL:1
+[1] ForrestGump, ATT:10, DEF:10, HP:99, LVL:2
+[2] HomerSimpson, ATT:40, DEF:20, HP:-13, LVL:9
+[3] ForrestGump, ATT:10, DEF:10, HP:-48, LVL:4
+[4] SantaClaus, ATT:30, DEF:20, HP:-67, LVL:6
+[5] Pikachu, ATT:50, DEF:10, HP:-32, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:6, LVL:4
+[7] LacoMelisko, ATT:5, DEF:5, HP:-75, LVL:10
+
+Kong => 104 => [6] ForrestGump
+[1] ForrestGump => 9 => Kong
+
+Kong, ATT:220, DEF:180, HP:37, LVL:10
+[0] LadyGaga, ATT:15, DEF:5, HP:-97, LVL:1
+[1] ForrestGump, ATT:10, DEF:10, HP:99, LVL:2
+[2] HomerSimpson, ATT:40, DEF:20, HP:-13, LVL:9
+[3] ForrestGump, ATT:10, DEF:10, HP:-48, LVL:4
+[4] SantaClaus, ATT:30, DEF:20, HP:-67, LVL:6
+[5] Pikachu, ATT:50, DEF:10, HP:-32, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:-98, LVL:4
+[7] LacoMelisko, ATT:5, DEF:5, HP:-75, LVL:10
+
+Kong => 65 => [1] ForrestGump
+[1] ForrestGump => 8 => Kong
+
+Kong, ATT:220, DEF:180, HP:29, LVL:10
+[0] LadyGaga, ATT:15, DEF:5, HP:-97, LVL:1
+[1] ForrestGump, ATT:10, DEF:10, HP:34, LVL:2
+[2] HomerSimpson, ATT:40, DEF:20, HP:-13, LVL:9
+[3] ForrestGump, ATT:10, DEF:10, HP:-48, LVL:4
+[4] SantaClaus, ATT:30, DEF:20, HP:-67, LVL:6
+[5] Pikachu, ATT:50, DEF:10, HP:-32, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:-98, LVL:4
+[7] LacoMelisko, ATT:5, DEF:5, HP:-75, LVL:10
+
+Kong => 93 => [1] ForrestGump
+
+Kong, ATT:220, DEF:180, HP:29, LVL:10
+[0] LadyGaga, ATT:15, DEF:5, HP:-97, LVL:1
+[1] ForrestGump, ATT:10, DEF:10, HP:-59, LVL:2
+[2] HomerSimpson, ATT:40, DEF:20, HP:-13, LVL:9
+[3] ForrestGump, ATT:10, DEF:10, HP:-48, LVL:4
+[4] SantaClaus, ATT:30, DEF:20, HP:-67, LVL:6
+[5] Pikachu, ATT:50, DEF:10, HP:-32, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:-98, LVL:4
+[7] LacoMelisko, ATT:5, DEF:5, HP:-75, LVL:10
+
+Winner: Kong
+Total monster DMG: 1159
+Total enemies DMG: 471

@@ -1,0 +1,351 @@
+OUTPUT:
+Kong, ATT:220, DEF:180, HP:500, LVL:0
+[0] Cruiser, ATT:100, DEF:75, HP:75, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:64, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:61, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:54, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:72, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:93, LVL:10
+
+Kong => 81 => [4] Artillery
+[0] Cruiser => 10 => Kong
+[1] Bomber => 27 => Kong
+[2] Bomber => 15 => Kong
+[3] Bomber => 11 => Kong
+[5] Infantry => 10 => Kong
+[6] Tank => 16 => Kong
+
+Kong, ATT:220, DEF:180, HP:411, LVL:1
+[0] Cruiser, ATT:100, DEF:75, HP:75, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:64, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:61, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:72, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:93, LVL:10
+
+Kong => 65 => [3] Bomber
+[0] Cruiser => 12 => Kong
+[1] Bomber => 12 => Kong
+[2] Bomber => 23 => Kong
+[5] Infantry => 10 => Kong
+[6] Tank => 13 => Kong
+
+Kong, ATT:220, DEF:180, HP:341, LVL:2
+[0] Cruiser, ATT:100, DEF:75, HP:75, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:64, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:72, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:93, LVL:10
+
+Kong => 80 => [2] Bomber
+[0] Cruiser => 11 => Kong
+[1] Bomber => 17 => Kong
+[5] Infantry => 9 => Kong
+[6] Tank => 18 => Kong
+
+Kong, ATT:220, DEF:180, HP:286, LVL:3
+[0] Cruiser, ATT:100, DEF:75, HP:75, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:72, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:93, LVL:10
+
+Kong => 111 => [5] Infantry
+[0] Cruiser => 14 => Kong
+[1] Bomber => 19 => Kong
+[6] Tank => 12 => Kong
+
+Kong, ATT:220, DEF:180, HP:241, LVL:4
+[0] Cruiser, ATT:100, DEF:75, HP:75, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:-39, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:93, LVL:10
+
+Kong => 71 => [0] Cruiser
+[0] Cruiser => 18 => Kong
+[1] Bomber => 20 => Kong
+[6] Tank => 13 => Kong
+
+Kong, ATT:220, DEF:180, HP:190, LVL:5
+[0] Cruiser, ATT:100, DEF:75, HP:4, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:-39, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:93, LVL:10
+
+Kong => 74 => [0] Cruiser
+[1] Bomber => 18 => Kong
+[6] Tank => 23 => Kong
+
+Kong, ATT:220, DEF:180, HP:149, LVL:6
+[0] Cruiser, ATT:100, DEF:75, HP:-70, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:-39, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:93, LVL:10
+
+Kong => 35 => [6] Tank
+[1] Bomber => 20 => Kong
+[6] Tank => 19 => Kong
+
+Kong, ATT:220, DEF:180, HP:110, LVL:7
+[0] Cruiser, ATT:100, DEF:75, HP:-70, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:-39, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:58, LVL:10
+
+Kong => 50 => [6] Tank
+[1] Bomber => 22 => Kong
+[6] Tank => 15 => Kong
+
+Kong, ATT:220, DEF:180, HP:73, LVL:8
+[0] Cruiser, ATT:100, DEF:75, HP:-70, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:-39, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:8, LVL:10
+
+Kong => 44 => [6] Tank
+[1] Bomber => 23 => Kong
+
+Kong, ATT:220, DEF:180, HP:50, LVL:9
+[0] Cruiser, ATT:100, DEF:75, HP:-70, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:-39, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:-36, LVL:10
+
+Kong => 39 => [1] Bomber
+[1] Bomber => 17 => Kong
+
+Kong, ATT:220, DEF:180, HP:33, LVL:10
+[0] Cruiser, ATT:100, DEF:75, HP:-70, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:57, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:-39, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:-36, LVL:10
+
+Kong => 47 => [1] Bomber
+[1] Bomber => 19 => Kong
+
+Kong, ATT:220, DEF:180, HP:14, LVL:10
+[0] Cruiser, ATT:100, DEF:75, HP:-70, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:10, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:-39, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:-36, LVL:10
+
+Kong => 56 => [1] Bomber
+
+Kong, ATT:220, DEF:180, HP:14, LVL:10
+[0] Cruiser, ATT:100, DEF:75, HP:-70, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:-46, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:-39, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:-36, LVL:10
+
+Winner: Kong
+Total monster DMG: 753
+Total enemies DMG: 486
+--------------------------------------------------
+EXPECTED:
+Kong, ATT:220, DEF:180, HP:500, LVL:0
+[0] Cruiser, ATT:100, DEF:75, HP:75, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:64, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:61, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:54, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:72, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:93, LVL:10
+
+Kong => 81 => [4] Artillery
+[0] Cruiser => 10 => Kong
+[1] Bomber => 27 => Kong
+[2] Bomber => 15 => Kong
+[3] Bomber => 11 => Kong
+[5] Infantry => 10 => Kong
+[6] Tank => 16 => Kong
+
+Kong, ATT:220, DEF:180, HP:411, LVL:1
+[0] Cruiser, ATT:100, DEF:75, HP:75, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:64, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:61, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:72, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:93, LVL:10
+
+Kong => 65 => [3] Bomber
+[0] Cruiser => 12 => Kong
+[1] Bomber => 12 => Kong
+[2] Bomber => 23 => Kong
+[5] Infantry => 10 => Kong
+[6] Tank => 13 => Kong
+
+Kong, ATT:220, DEF:180, HP:341, LVL:2
+[0] Cruiser, ATT:100, DEF:75, HP:75, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:64, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:72, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:93, LVL:10
+
+Kong => 80 => [2] Bomber
+[0] Cruiser => 11 => Kong
+[1] Bomber => 17 => Kong
+[5] Infantry => 9 => Kong
+[6] Tank => 18 => Kong
+
+Kong, ATT:220, DEF:180, HP:286, LVL:3
+[0] Cruiser, ATT:100, DEF:75, HP:75, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:72, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:93, LVL:10
+
+Kong => 111 => [5] Infantry
+[0] Cruiser => 14 => Kong
+[1] Bomber => 19 => Kong
+[6] Tank => 12 => Kong
+
+Kong, ATT:220, DEF:180, HP:241, LVL:4
+[0] Cruiser, ATT:100, DEF:75, HP:75, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:-39, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:93, LVL:10
+
+Kong => 71 => [0] Cruiser
+[0] Cruiser => 18 => Kong
+[1] Bomber => 20 => Kong
+[6] Tank => 13 => Kong
+
+Kong, ATT:220, DEF:180, HP:190, LVL:5
+[0] Cruiser, ATT:100, DEF:75, HP:4, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:-39, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:93, LVL:10
+
+Kong => 74 => [0] Cruiser
+[1] Bomber => 18 => Kong
+[6] Tank => 23 => Kong
+
+Kong, ATT:220, DEF:180, HP:149, LVL:6
+[0] Cruiser, ATT:100, DEF:75, HP:-70, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:-39, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:93, LVL:10
+
+Kong => 35 => [6] Tank
+[1] Bomber => 20 => Kong
+[6] Tank => 19 => Kong
+
+Kong, ATT:220, DEF:180, HP:110, LVL:7
+[0] Cruiser, ATT:100, DEF:75, HP:-70, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:-39, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:58, LVL:10
+
+Kong => 50 => [6] Tank
+[1] Bomber => 22 => Kong
+[6] Tank => 15 => Kong
+
+Kong, ATT:220, DEF:180, HP:73, LVL:8
+[0] Cruiser, ATT:100, DEF:75, HP:-70, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:-39, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:8, LVL:10
+
+Kong => 44 => [6] Tank
+[1] Bomber => 23 => Kong
+
+Kong, ATT:220, DEF:180, HP:50, LVL:9
+[0] Cruiser, ATT:100, DEF:75, HP:-70, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:96, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:-39, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:-36, LVL:10
+
+Kong => 39 => [1] Bomber
+[1] Bomber => 17 => Kong
+
+Kong, ATT:220, DEF:180, HP:33, LVL:10
+[0] Cruiser, ATT:100, DEF:75, HP:-70, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:57, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:-39, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:-36, LVL:10
+
+Kong => 47 => [1] Bomber
+[1] Bomber => 19 => Kong
+
+Kong, ATT:220, DEF:180, HP:14, LVL:10
+[0] Cruiser, ATT:100, DEF:75, HP:-70, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:10, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:-39, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:-36, LVL:10
+
+Kong => 56 => [1] Bomber
+
+Kong, ATT:220, DEF:180, HP:14, LVL:10
+[0] Cruiser, ATT:100, DEF:75, HP:-70, LVL:0
+[1] Bomber, ATT:120, DEF:100, HP:-46, LVL:5
+[2] Bomber, ATT:120, DEF:100, HP:-16, LVL:6
+[3] Bomber, ATT:120, DEF:100, HP:-4, LVL:1
+[4] Artillery, ATT:75, DEF:70, HP:-27, LVL:8
+[5] Infantry, ATT:45, DEF:0, HP:-39, LVL:2
+[6] Tank, ATT:65, DEF:100, HP:-36, LVL:10
+
+Winner: Kong
+Total monster DMG: 753
+Total enemies DMG: 486

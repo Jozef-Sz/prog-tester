@@ -1,0 +1,171 @@
+OUTPUT:
+Mechagodzilla, ATT:230, DEF:230, HP:500, LVL:0
+[0] Tank, ATT:65, DEF:100, HP:92, LVL:8
+[1] Helicopter, ATT:55, DEF:40, HP:95, LVL:6
+[2] Tank, ATT:65, DEF:100, HP:68, LVL:8
+[3] Submarine, ATT:105, DEF:65, HP:54, LVL:3
+[4] Submarine, ATT:105, DEF:65, HP:77, LVL:10
+[5] Cruiser, ATT:100, DEF:75, HP:59, LVL:5
+[6] Artillery, ATT:75, DEF:70, HP:89, LVL:7
+[7] Submarine, ATT:105, DEF:65, HP:88, LVL:3
+[8] Submarine, ATT:105, DEF:65, HP:99, LVL:8
+[9] Bomber, ATT:120, DEF:100, HP:53, LVL:7
+[10] Fighter, ATT:110, DEF:110, HP:99, LVL:7
+[11] Bomber, ATT:120, DEF:100, HP:99, LVL:6
+[12] Bomber, ATT:120, DEF:100, HP:67, LVL:10
+[13] Artillery, ATT:75, DEF:70, HP:57, LVL:1
+[14] Artillery, ATT:75, DEF:70, HP:97, LVL:7
+[15] Helicopter, ATT:55, DEF:40, HP:95, LVL:2
+[16] Fighter, ATT:110, DEF:110, HP:54, LVL:3
+[17] Submarine, ATT:105, DEF:65, HP:88, LVL:10
+[18] Submarine, ATT:105, DEF:65, HP:90, LVL:5
+[19] Submarine, ATT:105, DEF:65, HP:67, LVL:10
+[20] Bomber, ATT:120, DEF:100, HP:64, LVL:2
+[21] Bomber, ATT:120, DEF:100, HP:75, LVL:7
+[22] Bomber, ATT:120, DEF:100, HP:63, LVL:2
+[23] Submarine, ATT:105, DEF:65, HP:94, LVL:4
+[24] Bomber, ATT:120, DEF:100, HP:99, LVL:4
+
+Mechagodzilla => 42 => [9] Bomber
+[0] Tank => 13 => Mechagodzilla
+[1] Helicopter => 17 => Mechagodzilla
+[2] Tank => 10 => Mechagodzilla
+[3] Submarine => 17 => Mechagodzilla
+[4] Submarine => 18 => Mechagodzilla
+[5] Cruiser => 23 => Mechagodzilla
+[6] Artillery => 12 => Mechagodzilla
+[7] Submarine => 15 => Mechagodzilla
+[8] Submarine => 22 => Mechagodzilla
+[9] Bomber => 21 => Mechagodzilla
+[10] Fighter => 26 => Mechagodzilla
+[11] Bomber => 21 => Mechagodzilla
+[12] Bomber => 22 => Mechagodzilla
+[13] Artillery => 14 => Mechagodzilla
+[14] Artillery => 25 => Mechagodzilla
+[15] Helicopter => 16 => Mechagodzilla
+[16] Fighter => 18 => Mechagodzilla
+[17] Submarine => 26 => Mechagodzilla
+[18] Submarine => 23 => Mechagodzilla
+[19] Submarine => 25 => Mechagodzilla
+[20] Bomber => 20 => Mechagodzilla
+[21] Bomber => 26 => Mechagodzilla
+[22] Bomber => 20 => Mechagodzilla
+[23] Submarine => 28 => Mechagodzilla
+[24] Bomber => 29 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:-7, LVL:0
+[0] Tank, ATT:65, DEF:100, HP:92, LVL:8
+[1] Helicopter, ATT:55, DEF:40, HP:95, LVL:6
+[2] Tank, ATT:65, DEF:100, HP:68, LVL:8
+[3] Submarine, ATT:105, DEF:65, HP:54, LVL:3
+[4] Submarine, ATT:105, DEF:65, HP:77, LVL:10
+[5] Cruiser, ATT:100, DEF:75, HP:59, LVL:5
+[6] Artillery, ATT:75, DEF:70, HP:89, LVL:7
+[7] Submarine, ATT:105, DEF:65, HP:88, LVL:3
+[8] Submarine, ATT:105, DEF:65, HP:99, LVL:8
+[9] Bomber, ATT:120, DEF:100, HP:11, LVL:7
+[10] Fighter, ATT:110, DEF:110, HP:99, LVL:7
+[11] Bomber, ATT:120, DEF:100, HP:99, LVL:6
+[12] Bomber, ATT:120, DEF:100, HP:67, LVL:10
+[13] Artillery, ATT:75, DEF:70, HP:57, LVL:1
+[14] Artillery, ATT:75, DEF:70, HP:97, LVL:7
+[15] Helicopter, ATT:55, DEF:40, HP:95, LVL:2
+[16] Fighter, ATT:110, DEF:110, HP:54, LVL:3
+[17] Submarine, ATT:105, DEF:65, HP:88, LVL:10
+[18] Submarine, ATT:105, DEF:65, HP:90, LVL:5
+[19] Submarine, ATT:105, DEF:65, HP:67, LVL:10
+[20] Bomber, ATT:120, DEF:100, HP:64, LVL:2
+[21] Bomber, ATT:120, DEF:100, HP:75, LVL:7
+[22] Bomber, ATT:120, DEF:100, HP:63, LVL:2
+[23] Submarine, ATT:105, DEF:65, HP:94, LVL:4
+[24] Bomber, ATT:120, DEF:100, HP:99, LVL:4
+
+Winner: Enemy
+Total monster DMG: 42
+Total enemies DMG: 507
+--------------------------------------------------
+EXPECTED:
+Mechagodzilla, ATT:230, DEF:230, HP:500, LVL:0
+[0] Tank, ATT:65, DEF:100, HP:92, LVL:8
+[1] Helicopter, ATT:55, DEF:40, HP:95, LVL:6
+[2] Tank, ATT:65, DEF:100, HP:68, LVL:8
+[3] Submarine, ATT:105, DEF:65, HP:54, LVL:3
+[4] Submarine, ATT:105, DEF:65, HP:77, LVL:10
+[5] Cruiser, ATT:100, DEF:75, HP:59, LVL:5
+[6] Artillery, ATT:75, DEF:70, HP:89, LVL:7
+[7] Submarine, ATT:105, DEF:65, HP:88, LVL:3
+[8] Submarine, ATT:105, DEF:65, HP:99, LVL:8
+[9] Bomber, ATT:120, DEF:100, HP:53, LVL:7
+[10] Fighter, ATT:110, DEF:110, HP:99, LVL:7
+[11] Bomber, ATT:120, DEF:100, HP:99, LVL:6
+[12] Bomber, ATT:120, DEF:100, HP:67, LVL:10
+[13] Artillery, ATT:75, DEF:70, HP:57, LVL:1
+[14] Artillery, ATT:75, DEF:70, HP:97, LVL:7
+[15] Helicopter, ATT:55, DEF:40, HP:95, LVL:2
+[16] Fighter, ATT:110, DEF:110, HP:54, LVL:3
+[17] Submarine, ATT:105, DEF:65, HP:88, LVL:10
+[18] Submarine, ATT:105, DEF:65, HP:90, LVL:5
+[19] Submarine, ATT:105, DEF:65, HP:67, LVL:10
+[20] Bomber, ATT:120, DEF:100, HP:64, LVL:2
+[21] Bomber, ATT:120, DEF:100, HP:75, LVL:7
+[22] Bomber, ATT:120, DEF:100, HP:63, LVL:2
+[23] Submarine, ATT:105, DEF:65, HP:94, LVL:4
+[24] Bomber, ATT:120, DEF:100, HP:99, LVL:4
+
+Mechagodzilla => 42 => [9] Bomber
+[0] Tank => 13 => Mechagodzilla
+[1] Helicopter => 17 => Mechagodzilla
+[2] Tank => 10 => Mechagodzilla
+[3] Submarine => 17 => Mechagodzilla
+[4] Submarine => 18 => Mechagodzilla
+[5] Cruiser => 23 => Mechagodzilla
+[6] Artillery => 12 => Mechagodzilla
+[7] Submarine => 15 => Mechagodzilla
+[8] Submarine => 22 => Mechagodzilla
+[9] Bomber => 21 => Mechagodzilla
+[10] Fighter => 26 => Mechagodzilla
+[11] Bomber => 21 => Mechagodzilla
+[12] Bomber => 22 => Mechagodzilla
+[13] Artillery => 14 => Mechagodzilla
+[14] Artillery => 25 => Mechagodzilla
+[15] Helicopter => 16 => Mechagodzilla
+[16] Fighter => 18 => Mechagodzilla
+[17] Submarine => 26 => Mechagodzilla
+[18] Submarine => 23 => Mechagodzilla
+[19] Submarine => 25 => Mechagodzilla
+[20] Bomber => 20 => Mechagodzilla
+[21] Bomber => 26 => Mechagodzilla
+[22] Bomber => 20 => Mechagodzilla
+[23] Submarine => 28 => Mechagodzilla
+[24] Bomber => 29 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:-7, LVL:0
+[0] Tank, ATT:65, DEF:100, HP:92, LVL:8
+[1] Helicopter, ATT:55, DEF:40, HP:95, LVL:6
+[2] Tank, ATT:65, DEF:100, HP:68, LVL:8
+[3] Submarine, ATT:105, DEF:65, HP:54, LVL:3
+[4] Submarine, ATT:105, DEF:65, HP:77, LVL:10
+[5] Cruiser, ATT:100, DEF:75, HP:59, LVL:5
+[6] Artillery, ATT:75, DEF:70, HP:89, LVL:7
+[7] Submarine, ATT:105, DEF:65, HP:88, LVL:3
+[8] Submarine, ATT:105, DEF:65, HP:99, LVL:8
+[9] Bomber, ATT:120, DEF:100, HP:11, LVL:7
+[10] Fighter, ATT:110, DEF:110, HP:99, LVL:7
+[11] Bomber, ATT:120, DEF:100, HP:99, LVL:6
+[12] Bomber, ATT:120, DEF:100, HP:67, LVL:10
+[13] Artillery, ATT:75, DEF:70, HP:57, LVL:1
+[14] Artillery, ATT:75, DEF:70, HP:97, LVL:7
+[15] Helicopter, ATT:55, DEF:40, HP:95, LVL:2
+[16] Fighter, ATT:110, DEF:110, HP:54, LVL:3
+[17] Submarine, ATT:105, DEF:65, HP:88, LVL:10
+[18] Submarine, ATT:105, DEF:65, HP:90, LVL:5
+[19] Submarine, ATT:105, DEF:65, HP:67, LVL:10
+[20] Bomber, ATT:120, DEF:100, HP:64, LVL:2
+[21] Bomber, ATT:120, DEF:100, HP:75, LVL:7
+[22] Bomber, ATT:120, DEF:100, HP:63, LVL:2
+[23] Submarine, ATT:105, DEF:65, HP:94, LVL:4
+[24] Bomber, ATT:120, DEF:100, HP:99, LVL:4
+
+Winner: Enemy
+Total monster DMG: 42
+Total enemies DMG: 507

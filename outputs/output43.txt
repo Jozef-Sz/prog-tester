@@ -1,0 +1,235 @@
+OUTPUT:
+
+--------------------------------------------------
+EXPECTED:
+Mechagodzilla, ATT:230, DEF:230, HP:500, LVL:0
+[0] SantaClaus, ATT:30, DEF:20, HP:51, LVL:8
+[1] SantaClaus, ATT:30, DEF:20, HP:69, LVL:2
+[2] Frodo, ATT:50, DEF:30, HP:79, LVL:8
+[3] ForrestGump, ATT:10, DEF:10, HP:99, LVL:4
+[4] LadyGaga, ATT:15, DEF:5, HP:92, LVL:7
+[5] LadyGaga, ATT:15, DEF:5, HP:93, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:93, LVL:1
+[7] LadyGaga, ATT:15, DEF:5, HP:66, LVL:7
+
+Mechagodzilla => 70 => [0] SantaClaus
+[1] SantaClaus => 5 => Mechagodzilla
+[2] Frodo => 11 => Mechagodzilla
+[3] ForrestGump => 7 => Mechagodzilla
+[4] LadyGaga => 8 => Mechagodzilla
+[5] LadyGaga => 8 => Mechagodzilla
+[6] ForrestGump => 6 => Mechagodzilla
+[7] LadyGaga => 6 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:449, LVL:1
+[0] SantaClaus, ATT:30, DEF:20, HP:-19, LVL:8
+[1] SantaClaus, ATT:30, DEF:20, HP:69, LVL:2
+[2] Frodo, ATT:50, DEF:30, HP:79, LVL:8
+[3] ForrestGump, ATT:10, DEF:10, HP:99, LVL:4
+[4] LadyGaga, ATT:15, DEF:5, HP:92, LVL:7
+[5] LadyGaga, ATT:15, DEF:5, HP:93, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:93, LVL:1
+[7] LadyGaga, ATT:15, DEF:5, HP:66, LVL:7
+
+Mechagodzilla => 56 => [7] LadyGaga
+[1] SantaClaus => 6 => Mechagodzilla
+[2] Frodo => 10 => Mechagodzilla
+[3] ForrestGump => 5 => Mechagodzilla
+[4] LadyGaga => 7 => Mechagodzilla
+[5] LadyGaga => 5 => Mechagodzilla
+[6] ForrestGump => 6 => Mechagodzilla
+[7] LadyGaga => 6 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:404, LVL:2
+[0] SantaClaus, ATT:30, DEF:20, HP:-19, LVL:8
+[1] SantaClaus, ATT:30, DEF:20, HP:69, LVL:2
+[2] Frodo, ATT:50, DEF:30, HP:79, LVL:8
+[3] ForrestGump, ATT:10, DEF:10, HP:99, LVL:4
+[4] LadyGaga, ATT:15, DEF:5, HP:92, LVL:7
+[5] LadyGaga, ATT:15, DEF:5, HP:93, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:93, LVL:1
+[7] LadyGaga, ATT:15, DEF:5, HP:10, LVL:7
+
+Mechagodzilla => 107 => [7] LadyGaga
+[1] SantaClaus => 7 => Mechagodzilla
+[2] Frodo => 11 => Mechagodzilla
+[3] ForrestGump => 10 => Mechagodzilla
+[4] LadyGaga => 9 => Mechagodzilla
+[5] LadyGaga => 10 => Mechagodzilla
+[6] ForrestGump => 6 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:351, LVL:3
+[0] SantaClaus, ATT:30, DEF:20, HP:-19, LVL:8
+[1] SantaClaus, ATT:30, DEF:20, HP:69, LVL:2
+[2] Frodo, ATT:50, DEF:30, HP:79, LVL:8
+[3] ForrestGump, ATT:10, DEF:10, HP:99, LVL:4
+[4] LadyGaga, ATT:15, DEF:5, HP:92, LVL:7
+[5] LadyGaga, ATT:15, DEF:5, HP:93, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:93, LVL:1
+[7] LadyGaga, ATT:15, DEF:5, HP:-97, LVL:7
+
+Mechagodzilla => 161 => [1] SantaClaus
+[2] Frodo => 10 => Mechagodzilla
+[3] ForrestGump => 9 => Mechagodzilla
+[4] LadyGaga => 10 => Mechagodzilla
+[5] LadyGaga => 8 => Mechagodzilla
+[6] ForrestGump => 14 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:300, LVL:4
+[0] SantaClaus, ATT:30, DEF:20, HP:-19, LVL:8
+[1] SantaClaus, ATT:30, DEF:20, HP:-92, LVL:2
+[2] Frodo, ATT:50, DEF:30, HP:79, LVL:8
+[3] ForrestGump, ATT:10, DEF:10, HP:99, LVL:4
+[4] LadyGaga, ATT:15, DEF:5, HP:92, LVL:7
+[5] LadyGaga, ATT:15, DEF:5, HP:93, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:93, LVL:1
+[7] LadyGaga, ATT:15, DEF:5, HP:-97, LVL:7
+
+Mechagodzilla => 62 => [2] Frodo
+[2] Frodo => 13 => Mechagodzilla
+[3] ForrestGump => 14 => Mechagodzilla
+[4] LadyGaga => 9 => Mechagodzilla
+[5] LadyGaga => 9 => Mechagodzilla
+[6] ForrestGump => 9 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:246, LVL:5
+[0] SantaClaus, ATT:30, DEF:20, HP:-19, LVL:8
+[1] SantaClaus, ATT:30, DEF:20, HP:-92, LVL:2
+[2] Frodo, ATT:50, DEF:30, HP:17, LVL:8
+[3] ForrestGump, ATT:10, DEF:10, HP:99, LVL:4
+[4] LadyGaga, ATT:15, DEF:5, HP:92, LVL:7
+[5] LadyGaga, ATT:15, DEF:5, HP:93, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:93, LVL:1
+[7] LadyGaga, ATT:15, DEF:5, HP:-97, LVL:7
+
+Mechagodzilla => 70 => [2] Frodo
+[3] ForrestGump => 11 => Mechagodzilla
+[4] LadyGaga => 12 => Mechagodzilla
+[5] LadyGaga => 7 => Mechagodzilla
+[6] ForrestGump => 6 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:210, LVL:6
+[0] SantaClaus, ATT:30, DEF:20, HP:-19, LVL:8
+[1] SantaClaus, ATT:30, DEF:20, HP:-92, LVL:2
+[2] Frodo, ATT:50, DEF:30, HP:-53, LVL:8
+[3] ForrestGump, ATT:10, DEF:10, HP:99, LVL:4
+[4] LadyGaga, ATT:15, DEF:5, HP:92, LVL:7
+[5] LadyGaga, ATT:15, DEF:5, HP:93, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:93, LVL:1
+[7] LadyGaga, ATT:15, DEF:5, HP:-97, LVL:7
+
+Mechagodzilla => 91 => [4] LadyGaga
+[3] ForrestGump => 6 => Mechagodzilla
+[4] LadyGaga => 9 => Mechagodzilla
+[5] LadyGaga => 7 => Mechagodzilla
+[6] ForrestGump => 6 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:182, LVL:7
+[0] SantaClaus, ATT:30, DEF:20, HP:-19, LVL:8
+[1] SantaClaus, ATT:30, DEF:20, HP:-92, LVL:2
+[2] Frodo, ATT:50, DEF:30, HP:-53, LVL:8
+[3] ForrestGump, ATT:10, DEF:10, HP:99, LVL:4
+[4] LadyGaga, ATT:15, DEF:5, HP:1, LVL:7
+[5] LadyGaga, ATT:15, DEF:5, HP:93, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:93, LVL:1
+[7] LadyGaga, ATT:15, DEF:5, HP:-97, LVL:7
+
+Mechagodzilla => 136 => [4] LadyGaga
+[3] ForrestGump => 7 => Mechagodzilla
+[5] LadyGaga => 10 => Mechagodzilla
+[6] ForrestGump => 9 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:156, LVL:8
+[0] SantaClaus, ATT:30, DEF:20, HP:-19, LVL:8
+[1] SantaClaus, ATT:30, DEF:20, HP:-92, LVL:2
+[2] Frodo, ATT:50, DEF:30, HP:-53, LVL:8
+[3] ForrestGump, ATT:10, DEF:10, HP:99, LVL:4
+[4] LadyGaga, ATT:15, DEF:5, HP:-135, LVL:7
+[5] LadyGaga, ATT:15, DEF:5, HP:93, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:93, LVL:1
+[7] LadyGaga, ATT:15, DEF:5, HP:-97, LVL:7
+
+Mechagodzilla => 66 => [5] LadyGaga
+[3] ForrestGump => 9 => Mechagodzilla
+[5] LadyGaga => 6 => Mechagodzilla
+[6] ForrestGump => 10 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:131, LVL:9
+[0] SantaClaus, ATT:30, DEF:20, HP:-19, LVL:8
+[1] SantaClaus, ATT:30, DEF:20, HP:-92, LVL:2
+[2] Frodo, ATT:50, DEF:30, HP:-53, LVL:8
+[3] ForrestGump, ATT:10, DEF:10, HP:99, LVL:4
+[4] LadyGaga, ATT:15, DEF:5, HP:-135, LVL:7
+[5] LadyGaga, ATT:15, DEF:5, HP:27, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:93, LVL:1
+[7] LadyGaga, ATT:15, DEF:5, HP:-97, LVL:7
+
+Mechagodzilla => 119 => [5] LadyGaga
+[3] ForrestGump => 11 => Mechagodzilla
+[6] ForrestGump => 7 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:113, LVL:10
+[0] SantaClaus, ATT:30, DEF:20, HP:-19, LVL:8
+[1] SantaClaus, ATT:30, DEF:20, HP:-92, LVL:2
+[2] Frodo, ATT:50, DEF:30, HP:-53, LVL:8
+[3] ForrestGump, ATT:10, DEF:10, HP:99, LVL:4
+[4] LadyGaga, ATT:15, DEF:5, HP:-135, LVL:7
+[5] LadyGaga, ATT:15, DEF:5, HP:-92, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:93, LVL:1
+[7] LadyGaga, ATT:15, DEF:5, HP:-97, LVL:7
+
+Mechagodzilla => 91 => [6] ForrestGump
+[3] ForrestGump => 7 => Mechagodzilla
+[6] ForrestGump => 5 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:101, LVL:10
+[0] SantaClaus, ATT:30, DEF:20, HP:-19, LVL:8
+[1] SantaClaus, ATT:30, DEF:20, HP:-92, LVL:2
+[2] Frodo, ATT:50, DEF:30, HP:-53, LVL:8
+[3] ForrestGump, ATT:10, DEF:10, HP:99, LVL:4
+[4] LadyGaga, ATT:15, DEF:5, HP:-135, LVL:7
+[5] LadyGaga, ATT:15, DEF:5, HP:-92, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:2, LVL:1
+[7] LadyGaga, ATT:15, DEF:5, HP:-97, LVL:7
+
+Mechagodzilla => 127 => [6] ForrestGump
+[3] ForrestGump => 9 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:92, LVL:10
+[0] SantaClaus, ATT:30, DEF:20, HP:-19, LVL:8
+[1] SantaClaus, ATT:30, DEF:20, HP:-92, LVL:2
+[2] Frodo, ATT:50, DEF:30, HP:-53, LVL:8
+[3] ForrestGump, ATT:10, DEF:10, HP:99, LVL:4
+[4] LadyGaga, ATT:15, DEF:5, HP:-135, LVL:7
+[5] LadyGaga, ATT:15, DEF:5, HP:-92, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:-125, LVL:1
+[7] LadyGaga, ATT:15, DEF:5, HP:-97, LVL:7
+
+Mechagodzilla => 91 => [3] ForrestGump
+[3] ForrestGump => 6 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:86, LVL:10
+[0] SantaClaus, ATT:30, DEF:20, HP:-19, LVL:8
+[1] SantaClaus, ATT:30, DEF:20, HP:-92, LVL:2
+[2] Frodo, ATT:50, DEF:30, HP:-53, LVL:8
+[3] ForrestGump, ATT:10, DEF:10, HP:8, LVL:4
+[4] LadyGaga, ATT:15, DEF:5, HP:-135, LVL:7
+[5] LadyGaga, ATT:15, DEF:5, HP:-92, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:-125, LVL:1
+[7] LadyGaga, ATT:15, DEF:5, HP:-97, LVL:7
+
+Mechagodzilla => 117 => [3] ForrestGump
+
+Mechagodzilla, ATT:230, DEF:230, HP:86, LVL:10
+[0] SantaClaus, ATT:30, DEF:20, HP:-19, LVL:8
+[1] SantaClaus, ATT:30, DEF:20, HP:-92, LVL:2
+[2] Frodo, ATT:50, DEF:30, HP:-53, LVL:8
+[3] ForrestGump, ATT:10, DEF:10, HP:-109, LVL:4
+[4] LadyGaga, ATT:15, DEF:5, HP:-135, LVL:7
+[5] LadyGaga, ATT:15, DEF:5, HP:-92, LVL:0
+[6] ForrestGump, ATT:10, DEF:10, HP:-125, LVL:1
+[7] LadyGaga, ATT:15, DEF:5, HP:-97, LVL:7
+
+Winner: Mechagodzilla
+Total monster DMG: 1364
+Total enemies DMG: 414

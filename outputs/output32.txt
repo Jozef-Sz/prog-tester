@@ -1,0 +1,247 @@
+OUTPUT:
+Godzilla, ATT:200, DEF:220, HP:500, LVL:0
+[0] Cruiser, ATT:100, DEF:75, HP:91, LVL:9
+[1] Helicopter, ATT:55, DEF:40, HP:82, LVL:5
+[2] Artillery, ATT:75, DEF:70, HP:62, LVL:2
+[3] Artillery, ATT:75, DEF:70, HP:63, LVL:5
+[4] Fighter, ATT:110, DEF:110, HP:62, LVL:1
+[5] Cruiser, ATT:100, DEF:75, HP:62, LVL:8
+[6] Bomber, ATT:120, DEF:100, HP:62, LVL:0
+
+Godzilla => 73 => [2] Artillery
+[0] Cruiser => 19 => Godzilla
+[1] Helicopter => 10 => Godzilla
+[3] Artillery => 11 => Godzilla
+[4] Fighter => 17 => Godzilla
+[5] Cruiser => 10 => Godzilla
+[6] Bomber => 15 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:418, LVL:1
+[0] Cruiser, ATT:100, DEF:75, HP:91, LVL:9
+[1] Helicopter, ATT:55, DEF:40, HP:82, LVL:5
+[2] Artillery, ATT:75, DEF:70, HP:-11, LVL:2
+[3] Artillery, ATT:75, DEF:70, HP:63, LVL:5
+[4] Fighter, ATT:110, DEF:110, HP:62, LVL:1
+[5] Cruiser, ATT:100, DEF:75, HP:62, LVL:8
+[6] Bomber, ATT:120, DEF:100, HP:62, LVL:0
+
+Godzilla => 33 => [4] Fighter
+[0] Cruiser => 25 => Godzilla
+[1] Helicopter => 8 => Godzilla
+[3] Artillery => 10 => Godzilla
+[4] Fighter => 11 => Godzilla
+[5] Cruiser => 13 => Godzilla
+[6] Bomber => 9 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:342, LVL:2
+[0] Cruiser, ATT:100, DEF:75, HP:91, LVL:9
+[1] Helicopter, ATT:55, DEF:40, HP:82, LVL:5
+[2] Artillery, ATT:75, DEF:70, HP:-11, LVL:2
+[3] Artillery, ATT:75, DEF:70, HP:63, LVL:5
+[4] Fighter, ATT:110, DEF:110, HP:29, LVL:1
+[5] Cruiser, ATT:100, DEF:75, HP:62, LVL:8
+[6] Bomber, ATT:120, DEF:100, HP:62, LVL:0
+
+Godzilla => 58 => [4] Fighter
+[0] Cruiser => 19 => Godzilla
+[1] Helicopter => 10 => Godzilla
+[3] Artillery => 17 => Godzilla
+[5] Cruiser => 21 => Godzilla
+[6] Bomber => 13 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:262, LVL:3
+[0] Cruiser, ATT:100, DEF:75, HP:91, LVL:9
+[1] Helicopter, ATT:55, DEF:40, HP:82, LVL:5
+[2] Artillery, ATT:75, DEF:70, HP:-11, LVL:2
+[3] Artillery, ATT:75, DEF:70, HP:63, LVL:5
+[4] Fighter, ATT:110, DEF:110, HP:-29, LVL:1
+[5] Cruiser, ATT:100, DEF:75, HP:62, LVL:8
+[6] Bomber, ATT:120, DEF:100, HP:62, LVL:0
+
+Godzilla => 38 => [5] Cruiser
+[0] Cruiser => 17 => Godzilla
+[1] Helicopter => 16 => Godzilla
+[3] Artillery => 14 => Godzilla
+[5] Cruiser => 23 => Godzilla
+[6] Bomber => 16 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:176, LVL:4
+[0] Cruiser, ATT:100, DEF:75, HP:91, LVL:9
+[1] Helicopter, ATT:55, DEF:40, HP:82, LVL:5
+[2] Artillery, ATT:75, DEF:70, HP:-11, LVL:2
+[3] Artillery, ATT:75, DEF:70, HP:63, LVL:5
+[4] Fighter, ATT:110, DEF:110, HP:-29, LVL:1
+[5] Cruiser, ATT:100, DEF:75, HP:24, LVL:8
+[6] Bomber, ATT:120, DEF:100, HP:62, LVL:0
+
+Godzilla => 54 => [5] Cruiser
+[0] Cruiser => 15 => Godzilla
+[1] Helicopter => 17 => Godzilla
+[3] Artillery => 17 => Godzilla
+[6] Bomber => 16 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:111, LVL:5
+[0] Cruiser, ATT:100, DEF:75, HP:91, LVL:9
+[1] Helicopter, ATT:55, DEF:40, HP:82, LVL:5
+[2] Artillery, ATT:75, DEF:70, HP:-11, LVL:2
+[3] Artillery, ATT:75, DEF:70, HP:63, LVL:5
+[4] Fighter, ATT:110, DEF:110, HP:-29, LVL:1
+[5] Cruiser, ATT:100, DEF:75, HP:-30, LVL:8
+[6] Bomber, ATT:120, DEF:100, HP:62, LVL:0
+
+Godzilla => 52 => [6] Bomber
+[0] Cruiser => 23 => Godzilla
+[1] Helicopter => 16 => Godzilla
+[3] Artillery => 16 => Godzilla
+[6] Bomber => 16 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:40, LVL:6
+[0] Cruiser, ATT:100, DEF:75, HP:91, LVL:9
+[1] Helicopter, ATT:55, DEF:40, HP:82, LVL:5
+[2] Artillery, ATT:75, DEF:70, HP:-11, LVL:2
+[3] Artillery, ATT:75, DEF:70, HP:63, LVL:5
+[4] Fighter, ATT:110, DEF:110, HP:-29, LVL:1
+[5] Cruiser, ATT:100, DEF:75, HP:-30, LVL:8
+[6] Bomber, ATT:120, DEF:100, HP:10, LVL:0
+
+Godzilla => 58 => [6] Bomber
+[0] Cruiser => 24 => Godzilla
+[1] Helicopter => 14 => Godzilla
+[3] Artillery => 16 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:-14, LVL:6
+[0] Cruiser, ATT:100, DEF:75, HP:91, LVL:9
+[1] Helicopter, ATT:55, DEF:40, HP:82, LVL:5
+[2] Artillery, ATT:75, DEF:70, HP:-11, LVL:2
+[3] Artillery, ATT:75, DEF:70, HP:63, LVL:5
+[4] Fighter, ATT:110, DEF:110, HP:-29, LVL:1
+[5] Cruiser, ATT:100, DEF:75, HP:-30, LVL:8
+[6] Bomber, ATT:120, DEF:100, HP:-48, LVL:0
+
+Winner: Enemy
+Total monster DMG: 366
+Total enemies DMG: 514
+--------------------------------------------------
+EXPECTED:
+Godzilla, ATT:200, DEF:220, HP:500, LVL:0
+[0] Cruiser, ATT:100, DEF:75, HP:91, LVL:9
+[1] Helicopter, ATT:55, DEF:40, HP:82, LVL:5
+[2] Artillery, ATT:75, DEF:70, HP:62, LVL:2
+[3] Artillery, ATT:75, DEF:70, HP:63, LVL:5
+[4] Fighter, ATT:110, DEF:110, HP:62, LVL:1
+[5] Cruiser, ATT:100, DEF:75, HP:62, LVL:8
+[6] Bomber, ATT:120, DEF:100, HP:62, LVL:0
+
+Godzilla => 73 => [2] Artillery
+[0] Cruiser => 19 => Godzilla
+[1] Helicopter => 10 => Godzilla
+[3] Artillery => 11 => Godzilla
+[4] Fighter => 17 => Godzilla
+[5] Cruiser => 10 => Godzilla
+[6] Bomber => 15 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:418, LVL:1
+[0] Cruiser, ATT:100, DEF:75, HP:91, LVL:9
+[1] Helicopter, ATT:55, DEF:40, HP:82, LVL:5
+[2] Artillery, ATT:75, DEF:70, HP:-11, LVL:2
+[3] Artillery, ATT:75, DEF:70, HP:63, LVL:5
+[4] Fighter, ATT:110, DEF:110, HP:62, LVL:1
+[5] Cruiser, ATT:100, DEF:75, HP:62, LVL:8
+[6] Bomber, ATT:120, DEF:100, HP:62, LVL:0
+
+Godzilla => 33 => [4] Fighter
+[0] Cruiser => 25 => Godzilla
+[1] Helicopter => 8 => Godzilla
+[3] Artillery => 10 => Godzilla
+[4] Fighter => 11 => Godzilla
+[5] Cruiser => 13 => Godzilla
+[6] Bomber => 9 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:342, LVL:2
+[0] Cruiser, ATT:100, DEF:75, HP:91, LVL:9
+[1] Helicopter, ATT:55, DEF:40, HP:82, LVL:5
+[2] Artillery, ATT:75, DEF:70, HP:-11, LVL:2
+[3] Artillery, ATT:75, DEF:70, HP:63, LVL:5
+[4] Fighter, ATT:110, DEF:110, HP:29, LVL:1
+[5] Cruiser, ATT:100, DEF:75, HP:62, LVL:8
+[6] Bomber, ATT:120, DEF:100, HP:62, LVL:0
+
+Godzilla => 58 => [4] Fighter
+[0] Cruiser => 19 => Godzilla
+[1] Helicopter => 10 => Godzilla
+[3] Artillery => 17 => Godzilla
+[5] Cruiser => 21 => Godzilla
+[6] Bomber => 13 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:262, LVL:3
+[0] Cruiser, ATT:100, DEF:75, HP:91, LVL:9
+[1] Helicopter, ATT:55, DEF:40, HP:82, LVL:5
+[2] Artillery, ATT:75, DEF:70, HP:-11, LVL:2
+[3] Artillery, ATT:75, DEF:70, HP:63, LVL:5
+[4] Fighter, ATT:110, DEF:110, HP:-29, LVL:1
+[5] Cruiser, ATT:100, DEF:75, HP:62, LVL:8
+[6] Bomber, ATT:120, DEF:100, HP:62, LVL:0
+
+Godzilla => 38 => [5] Cruiser
+[0] Cruiser => 17 => Godzilla
+[1] Helicopter => 16 => Godzilla
+[3] Artillery => 14 => Godzilla
+[5] Cruiser => 23 => Godzilla
+[6] Bomber => 16 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:176, LVL:4
+[0] Cruiser, ATT:100, DEF:75, HP:91, LVL:9
+[1] Helicopter, ATT:55, DEF:40, HP:82, LVL:5
+[2] Artillery, ATT:75, DEF:70, HP:-11, LVL:2
+[3] Artillery, ATT:75, DEF:70, HP:63, LVL:5
+[4] Fighter, ATT:110, DEF:110, HP:-29, LVL:1
+[5] Cruiser, ATT:100, DEF:75, HP:24, LVL:8
+[6] Bomber, ATT:120, DEF:100, HP:62, LVL:0
+
+Godzilla => 54 => [5] Cruiser
+[0] Cruiser => 15 => Godzilla
+[1] Helicopter => 17 => Godzilla
+[3] Artillery => 17 => Godzilla
+[6] Bomber => 16 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:111, LVL:5
+[0] Cruiser, ATT:100, DEF:75, HP:91, LVL:9
+[1] Helicopter, ATT:55, DEF:40, HP:82, LVL:5
+[2] Artillery, ATT:75, DEF:70, HP:-11, LVL:2
+[3] Artillery, ATT:75, DEF:70, HP:63, LVL:5
+[4] Fighter, ATT:110, DEF:110, HP:-29, LVL:1
+[5] Cruiser, ATT:100, DEF:75, HP:-30, LVL:8
+[6] Bomber, ATT:120, DEF:100, HP:62, LVL:0
+
+Godzilla => 52 => [6] Bomber
+[0] Cruiser => 23 => Godzilla
+[1] Helicopter => 16 => Godzilla
+[3] Artillery => 16 => Godzilla
+[6] Bomber => 16 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:40, LVL:6
+[0] Cruiser, ATT:100, DEF:75, HP:91, LVL:9
+[1] Helicopter, ATT:55, DEF:40, HP:82, LVL:5
+[2] Artillery, ATT:75, DEF:70, HP:-11, LVL:2
+[3] Artillery, ATT:75, DEF:70, HP:63, LVL:5
+[4] Fighter, ATT:110, DEF:110, HP:-29, LVL:1
+[5] Cruiser, ATT:100, DEF:75, HP:-30, LVL:8
+[6] Bomber, ATT:120, DEF:100, HP:10, LVL:0
+
+Godzilla => 58 => [6] Bomber
+[0] Cruiser => 24 => Godzilla
+[1] Helicopter => 14 => Godzilla
+[3] Artillery => 16 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:-14, LVL:6
+[0] Cruiser, ATT:100, DEF:75, HP:91, LVL:9
+[1] Helicopter, ATT:55, DEF:40, HP:82, LVL:5
+[2] Artillery, ATT:75, DEF:70, HP:-11, LVL:2
+[3] Artillery, ATT:75, DEF:70, HP:63, LVL:5
+[4] Fighter, ATT:110, DEF:110, HP:-29, LVL:1
+[5] Cruiser, ATT:100, DEF:75, HP:-30, LVL:8
+[6] Bomber, ATT:120, DEF:100, HP:-48, LVL:0
+
+Winner: Enemy
+Total monster DMG: 366
+Total enemies DMG: 514

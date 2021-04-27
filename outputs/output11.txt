@@ -1,0 +1,305 @@
+OUTPUT:
+Godzilla, ATT:200, DEF:220, HP:500, LVL:0
+[0] Helicopter, ATT:55, DEF:40, HP:64, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:69, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:53, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:54, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:53, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:83, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:58, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:79, LVL:1
+
+Godzilla => 91 => [2] Artillery
+[0] Helicopter => 10 => Godzilla
+[1] Helicopter => 9 => Godzilla
+[3] Artillery => 9 => Godzilla
+[4] Artillery => 13 => Godzilla
+[5] Helicopter => 9 => Godzilla
+[6] Infantry => 16 => Godzilla
+[7] Submarine => 19 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:415, LVL:1
+[0] Helicopter, ATT:55, DEF:40, HP:64, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:69, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:-38, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:54, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:53, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:83, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:58, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:79, LVL:1
+
+Godzilla => 65 => [4] Artillery
+[0] Helicopter => 8 => Godzilla
+[1] Helicopter => 12 => Godzilla
+[3] Artillery => 15 => Godzilla
+[5] Helicopter => 9 => Godzilla
+[6] Infantry => 16 => Godzilla
+[7] Submarine => 21 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:334, LVL:2
+[0] Helicopter, ATT:55, DEF:40, HP:64, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:69, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:-38, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:54, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:-12, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:83, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:58, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:79, LVL:1
+
+Godzilla => 68 => [3] Artillery
+[0] Helicopter => 14 => Godzilla
+[1] Helicopter => 12 => Godzilla
+[5] Helicopter => 12 => Godzilla
+[6] Infantry => 11 => Godzilla
+[7] Submarine => 16 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:269, LVL:3
+[0] Helicopter, ATT:55, DEF:40, HP:64, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:69, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:-38, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:-14, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:-12, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:83, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:58, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:79, LVL:1
+
+Godzilla => 91 => [6] Infantry
+[0] Helicopter => 9 => Godzilla
+[1] Helicopter => 11 => Godzilla
+[5] Helicopter => 14 => Godzilla
+[7] Submarine => 16 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:219, LVL:4
+[0] Helicopter, ATT:55, DEF:40, HP:64, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:69, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:-38, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:-14, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:-12, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:83, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:-33, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:79, LVL:1
+
+Godzilla => 97 => [0] Helicopter
+[1] Helicopter => 11 => Godzilla
+[5] Helicopter => 16 => Godzilla
+[7] Submarine => 18 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:174, LVL:5
+[0] Helicopter, ATT:55, DEF:40, HP:-33, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:69, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:-38, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:-14, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:-12, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:83, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:-33, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:79, LVL:1
+
+Godzilla => 76 => [1] Helicopter
+[5] Helicopter => 13 => Godzilla
+[7] Submarine => 16 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:145, LVL:6
+[0] Helicopter, ATT:55, DEF:40, HP:-33, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:-7, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:-38, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:-14, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:-12, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:83, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:-33, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:79, LVL:1
+
+Godzilla => 44 => [7] Submarine
+[5] Helicopter => 11 => Godzilla
+[7] Submarine => 12 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:122, LVL:7
+[0] Helicopter, ATT:55, DEF:40, HP:-33, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:-7, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:-38, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:-14, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:-12, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:83, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:-33, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:35, LVL:1
+
+Godzilla => 69 => [7] Submarine
+[5] Helicopter => 12 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:110, LVL:8
+[0] Helicopter, ATT:55, DEF:40, HP:-33, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:-7, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:-38, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:-14, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:-12, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:83, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:-33, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:-34, LVL:1
+
+Godzilla => 95 => [5] Helicopter
+
+Godzilla, ATT:200, DEF:220, HP:110, LVL:9
+[0] Helicopter, ATT:55, DEF:40, HP:-33, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:-7, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:-38, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:-14, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:-12, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:-12, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:-33, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:-34, LVL:1
+
+Winner: Godzilla
+Total monster DMG: 696
+Total enemies DMG: 390
+--------------------------------------------------
+EXPECTED:
+Godzilla, ATT:200, DEF:220, HP:500, LVL:0
+[0] Helicopter, ATT:55, DEF:40, HP:64, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:69, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:53, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:54, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:53, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:83, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:58, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:79, LVL:1
+
+Godzilla => 91 => [2] Artillery
+[0] Helicopter => 10 => Godzilla
+[1] Helicopter => 9 => Godzilla
+[3] Artillery => 9 => Godzilla
+[4] Artillery => 13 => Godzilla
+[5] Helicopter => 9 => Godzilla
+[6] Infantry => 16 => Godzilla
+[7] Submarine => 19 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:415, LVL:1
+[0] Helicopter, ATT:55, DEF:40, HP:64, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:69, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:-38, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:54, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:53, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:83, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:58, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:79, LVL:1
+
+Godzilla => 65 => [4] Artillery
+[0] Helicopter => 8 => Godzilla
+[1] Helicopter => 12 => Godzilla
+[3] Artillery => 15 => Godzilla
+[5] Helicopter => 9 => Godzilla
+[6] Infantry => 16 => Godzilla
+[7] Submarine => 21 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:334, LVL:2
+[0] Helicopter, ATT:55, DEF:40, HP:64, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:69, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:-38, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:54, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:-12, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:83, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:58, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:79, LVL:1
+
+Godzilla => 68 => [3] Artillery
+[0] Helicopter => 14 => Godzilla
+[1] Helicopter => 12 => Godzilla
+[5] Helicopter => 12 => Godzilla
+[6] Infantry => 11 => Godzilla
+[7] Submarine => 16 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:269, LVL:3
+[0] Helicopter, ATT:55, DEF:40, HP:64, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:69, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:-38, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:-14, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:-12, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:83, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:58, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:79, LVL:1
+
+Godzilla => 91 => [6] Infantry
+[0] Helicopter => 9 => Godzilla
+[1] Helicopter => 11 => Godzilla
+[5] Helicopter => 14 => Godzilla
+[7] Submarine => 16 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:219, LVL:4
+[0] Helicopter, ATT:55, DEF:40, HP:64, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:69, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:-38, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:-14, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:-12, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:83, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:-33, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:79, LVL:1
+
+Godzilla => 97 => [0] Helicopter
+[1] Helicopter => 11 => Godzilla
+[5] Helicopter => 16 => Godzilla
+[7] Submarine => 18 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:174, LVL:5
+[0] Helicopter, ATT:55, DEF:40, HP:-33, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:69, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:-38, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:-14, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:-12, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:83, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:-33, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:79, LVL:1
+
+Godzilla => 76 => [1] Helicopter
+[5] Helicopter => 13 => Godzilla
+[7] Submarine => 16 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:145, LVL:6
+[0] Helicopter, ATT:55, DEF:40, HP:-33, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:-7, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:-38, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:-14, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:-12, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:83, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:-33, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:79, LVL:1
+
+Godzilla => 44 => [7] Submarine
+[5] Helicopter => 11 => Godzilla
+[7] Submarine => 12 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:122, LVL:7
+[0] Helicopter, ATT:55, DEF:40, HP:-33, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:-7, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:-38, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:-14, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:-12, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:83, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:-33, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:35, LVL:1
+
+Godzilla => 69 => [7] Submarine
+[5] Helicopter => 12 => Godzilla
+
+Godzilla, ATT:200, DEF:220, HP:110, LVL:8
+[0] Helicopter, ATT:55, DEF:40, HP:-33, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:-7, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:-38, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:-14, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:-12, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:83, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:-33, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:-34, LVL:1
+
+Godzilla => 95 => [5] Helicopter
+
+Godzilla, ATT:200, DEF:220, HP:110, LVL:9
+[0] Helicopter, ATT:55, DEF:40, HP:-33, LVL:0
+[1] Helicopter, ATT:55, DEF:40, HP:-7, LVL:3
+[2] Artillery, ATT:75, DEF:70, HP:-38, LVL:5
+[3] Artillery, ATT:75, DEF:70, HP:-14, LVL:8
+[4] Artillery, ATT:75, DEF:70, HP:-12, LVL:6
+[5] Helicopter, ATT:55, DEF:40, HP:-12, LVL:3
+[6] Infantry, ATT:45, DEF:0, HP:-33, LVL:5
+[7] Submarine, ATT:105, DEF:65, HP:-34, LVL:1
+
+Winner: Godzilla
+Total monster DMG: 696
+Total enemies DMG: 390

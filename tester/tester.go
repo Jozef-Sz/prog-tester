@@ -23,10 +23,11 @@ type Tester struct {
 	results []testcase.Result
 }
 
-func NewTester(testCases []testcase.TestCase, executable string) Tester {
+func RunTester(testCases []testcase.TestCase, executable string) Tester {
 	tester := Tester{passed: 0}
 	for _, testcase := range testCases {
 		result := testcase.Run(executable)
+		printTestcaseResult(result)
 		tester.results = append(tester.results, result)
 
 		if checkResultSuccess(&result) == SUCCESSFUL {
@@ -48,9 +49,6 @@ func checkResultSuccess(result *testcase.Result) ResultSuccess {
 }
 
 func (tester *Tester) EvaluateResults(discardOutput bool) {
-	for _, result := range tester.results {
-		printTestcaseResult(result)
-	}
 	printTestConslusion(tester)
 	saveTestResults(tester.results, !discardOutput)
 }

@@ -5,7 +5,9 @@
 ## Available commands
 - **run**: runs the test on given executable `tester run <executable>`
 - **gen**: generates the required file structure, number represents the count of input entries, it's argument is optional `tester gen <?number>`
-
+#
+Planned commands:
+- **diff**: takes in a testcase (it's name or id `tester diff 4`, `tester diff testcase4`) and prints out unified diff of the output and expected output or instead of a new command just print the diff to the output txt?
 ## Available flags
 - **--discard-output**, **-d**: the produced output of executable won't be saved (By default every output produced from each testcase is saved to individual txt files)
 - **--name**, **-n**: specify the name of the input xml file, by default it is test_schema.xml

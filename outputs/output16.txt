@@ -1,0 +1,181 @@
+OUTPUT:
+Mechagodzilla, ATT:230, DEF:230, HP:500, LVL:0
+[0] Submarine, ATT:105, DEF:65, HP:86, LVL:3
+[1] Artillery, ATT:75, DEF:70, HP:61, LVL:9
+[2] Cruiser, ATT:100, DEF:75, HP:87, LVL:10
+[3] Cruiser, ATT:100, DEF:75, HP:70, LVL:9
+
+Mechagodzilla => 39 => [1] Artillery
+[0] Submarine => 10 => Mechagodzilla
+[1] Artillery => 16 => Mechagodzilla
+[2] Cruiser => 19 => Mechagodzilla
+[3] Cruiser => 26 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:429, LVL:1
+[0] Submarine, ATT:105, DEF:65, HP:86, LVL:3
+[1] Artillery, ATT:75, DEF:70, HP:22, LVL:9
+[2] Cruiser, ATT:100, DEF:75, HP:87, LVL:10
+[3] Cruiser, ATT:100, DEF:75, HP:70, LVL:9
+
+Mechagodzilla => 69 => [1] Artillery
+[0] Submarine => 15 => Mechagodzilla
+[2] Cruiser => 15 => Mechagodzilla
+[3] Cruiser => 21 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:378, LVL:2
+[0] Submarine, ATT:105, DEF:65, HP:86, LVL:3
+[1] Artillery, ATT:75, DEF:70, HP:-47, LVL:9
+[2] Cruiser, ATT:100, DEF:75, HP:87, LVL:10
+[3] Cruiser, ATT:100, DEF:75, HP:70, LVL:9
+
+Mechagodzilla => 55 => [3] Cruiser
+[0] Submarine => 19 => Mechagodzilla
+[2] Cruiser => 24 => Mechagodzilla
+[3] Cruiser => 11 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:324, LVL:3
+[0] Submarine, ATT:105, DEF:65, HP:86, LVL:3
+[1] Artillery, ATT:75, DEF:70, HP:-47, LVL:9
+[2] Cruiser, ATT:100, DEF:75, HP:87, LVL:10
+[3] Cruiser, ATT:100, DEF:75, HP:15, LVL:9
+
+Mechagodzilla => 69 => [3] Cruiser
+[0] Submarine => 16 => Mechagodzilla
+[2] Cruiser => 12 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:296, LVL:4
+[0] Submarine, ATT:105, DEF:65, HP:86, LVL:3
+[1] Artillery, ATT:75, DEF:70, HP:-47, LVL:9
+[2] Cruiser, ATT:100, DEF:75, HP:87, LVL:10
+[3] Cruiser, ATT:100, DEF:75, HP:-54, LVL:9
+
+Mechagodzilla => 55 => [0] Submarine
+[0] Submarine => 13 => Mechagodzilla
+[2] Cruiser => 20 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:263, LVL:5
+[0] Submarine, ATT:105, DEF:65, HP:31, LVL:3
+[1] Artillery, ATT:75, DEF:70, HP:-47, LVL:9
+[2] Cruiser, ATT:100, DEF:75, HP:87, LVL:10
+[3] Cruiser, ATT:100, DEF:75, HP:-54, LVL:9
+
+Mechagodzilla => 70 => [0] Submarine
+[2] Cruiser => 17 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:246, LVL:6
+[0] Submarine, ATT:105, DEF:65, HP:-39, LVL:3
+[1] Artillery, ATT:75, DEF:70, HP:-47, LVL:9
+[2] Cruiser, ATT:100, DEF:75, HP:87, LVL:10
+[3] Cruiser, ATT:100, DEF:75, HP:-54, LVL:9
+
+Mechagodzilla => 33 => [2] Cruiser
+[2] Cruiser => 13 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:233, LVL:7
+[0] Submarine, ATT:105, DEF:65, HP:-39, LVL:3
+[1] Artillery, ATT:75, DEF:70, HP:-47, LVL:9
+[2] Cruiser, ATT:100, DEF:75, HP:54, LVL:10
+[3] Cruiser, ATT:100, DEF:75, HP:-54, LVL:9
+
+Mechagodzilla => 56 => [2] Cruiser
+
+Mechagodzilla, ATT:230, DEF:230, HP:233, LVL:8
+[0] Submarine, ATT:105, DEF:65, HP:-39, LVL:3
+[1] Artillery, ATT:75, DEF:70, HP:-47, LVL:9
+[2] Cruiser, ATT:100, DEF:75, HP:-2, LVL:10
+[3] Cruiser, ATT:100, DEF:75, HP:-54, LVL:9
+
+Winner: Mechagodzilla
+Total monster DMG: 446
+Total enemies DMG: 267
+--------------------------------------------------
+EXPECTED:
+Mechagodzilla, ATT:230, DEF:230, HP:500, LVL:0
+[0] Submarine, ATT:105, DEF:65, HP:86, LVL:3
+[1] Artillery, ATT:75, DEF:70, HP:61, LVL:9
+[2] Cruiser, ATT:100, DEF:75, HP:87, LVL:10
+[3] Cruiser, ATT:100, DEF:75, HP:70, LVL:9
+
+Mechagodzilla => 39 => [1] Artillery
+[0] Submarine => 10 => Mechagodzilla
+[1] Artillery => 16 => Mechagodzilla
+[2] Cruiser => 19 => Mechagodzilla
+[3] Cruiser => 26 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:429, LVL:1
+[0] Submarine, ATT:105, DEF:65, HP:86, LVL:3
+[1] Artillery, ATT:75, DEF:70, HP:22, LVL:9
+[2] Cruiser, ATT:100, DEF:75, HP:87, LVL:10
+[3] Cruiser, ATT:100, DEF:75, HP:70, LVL:9
+
+Mechagodzilla => 69 => [1] Artillery
+[0] Submarine => 15 => Mechagodzilla
+[2] Cruiser => 15 => Mechagodzilla
+[3] Cruiser => 21 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:378, LVL:2
+[0] Submarine, ATT:105, DEF:65, HP:86, LVL:3
+[1] Artillery, ATT:75, DEF:70, HP:-47, LVL:9
+[2] Cruiser, ATT:100, DEF:75, HP:87, LVL:10
+[3] Cruiser, ATT:100, DEF:75, HP:70, LVL:9
+
+Mechagodzilla => 55 => [3] Cruiser
+[0] Submarine => 19 => Mechagodzilla
+[2] Cruiser => 24 => Mechagodzilla
+[3] Cruiser => 11 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:324, LVL:3
+[0] Submarine, ATT:105, DEF:65, HP:86, LVL:3
+[1] Artillery, ATT:75, DEF:70, HP:-47, LVL:9
+[2] Cruiser, ATT:100, DEF:75, HP:87, LVL:10
+[3] Cruiser, ATT:100, DEF:75, HP:15, LVL:9
+
+Mechagodzilla => 69 => [3] Cruiser
+[0] Submarine => 16 => Mechagodzilla
+[2] Cruiser => 12 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:296, LVL:4
+[0] Submarine, ATT:105, DEF:65, HP:86, LVL:3
+[1] Artillery, ATT:75, DEF:70, HP:-47, LVL:9
+[2] Cruiser, ATT:100, DEF:75, HP:87, LVL:10
+[3] Cruiser, ATT:100, DEF:75, HP:-54, LVL:9
+
+Mechagodzilla => 55 => [0] Submarine
+[0] Submarine => 13 => Mechagodzilla
+[2] Cruiser => 20 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:263, LVL:5
+[0] Submarine, ATT:105, DEF:65, HP:31, LVL:3
+[1] Artillery, ATT:75, DEF:70, HP:-47, LVL:9
+[2] Cruiser, ATT:100, DEF:75, HP:87, LVL:10
+[3] Cruiser, ATT:100, DEF:75, HP:-54, LVL:9
+
+Mechagodzilla => 70 => [0] Submarine
+[2] Cruiser => 17 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:246, LVL:6
+[0] Submarine, ATT:105, DEF:65, HP:-39, LVL:3
+[1] Artillery, ATT:75, DEF:70, HP:-47, LVL:9
+[2] Cruiser, ATT:100, DEF:75, HP:87, LVL:10
+[3] Cruiser, ATT:100, DEF:75, HP:-54, LVL:9
+
+Mechagodzilla => 33 => [2] Cruiser
+[2] Cruiser => 13 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:233, LVL:7
+[0] Submarine, ATT:105, DEF:65, HP:-39, LVL:3
+[1] Artillery, ATT:75, DEF:70, HP:-47, LVL:9
+[2] Cruiser, ATT:100, DEF:75, HP:54, LVL:10
+[3] Cruiser, ATT:100, DEF:75, HP:-54, LVL:9
+
+Mechagodzilla => 56 => [2] Cruiser
+
+Mechagodzilla, ATT:230, DEF:230, HP:233, LVL:8
+[0] Submarine, ATT:105, DEF:65, HP:-39, LVL:3
+[1] Artillery, ATT:75, DEF:70, HP:-47, LVL:9
+[2] Cruiser, ATT:100, DEF:75, HP:-2, LVL:10
+[3] Cruiser, ATT:100, DEF:75, HP:-54, LVL:9
+
+Winner: Mechagodzilla
+Total monster DMG: 446
+Total enemies DMG: 267

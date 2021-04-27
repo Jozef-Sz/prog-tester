@@ -1,0 +1,217 @@
+OUTPUT:
+Kong, ATT:220, DEF:180, HP:500, LVL:0
+[0] Tank, ATT:65, DEF:100, HP:65, LVL:10
+[1] Helicopter, ATT:55, DEF:40, HP:91, LVL:6
+[2] Helicopter, ATT:55, DEF:40, HP:68, LVL:1
+[3] Bomber, ATT:120, DEF:100, HP:76, LVL:1
+[4] Cruiser, ATT:100, DEF:75, HP:86, LVL:7
+[5] Submarine, ATT:105, DEF:65, HP:58, LVL:7
+[6] Artillery, ATT:75, DEF:70, HP:83, LVL:7
+[7] Fighter, ATT:110, DEF:110, HP:63, LVL:9
+[8] Submarine, ATT:105, DEF:65, HP:71, LVL:1
+[9] Infantry, ATT:45, DEF:0, HP:87, LVL:3
+[10] Submarine, ATT:105, DEF:65, HP:72, LVL:4
+[11] Artillery, ATT:75, DEF:70, HP:88, LVL:0
+[12] Helicopter, ATT:55, DEF:40, HP:88, LVL:5
+[13] Infantry, ATT:45, DEF:0, HP:51, LVL:1
+[14] Infantry, ATT:45, DEF:0, HP:71, LVL:2
+
+Kong => 203 => [13] Infantry
+[0] Tank => 11 => Kong
+[1] Helicopter => 8 => Kong
+[2] Helicopter => 11 => Kong
+[3] Bomber => 18 => Kong
+[4] Cruiser => 14 => Kong
+[5] Submarine => 16 => Kong
+[6] Artillery => 16 => Kong
+[7] Fighter => 23 => Kong
+[8] Submarine => 14 => Kong
+[9] Infantry => 15 => Kong
+[10] Submarine => 21 => Kong
+[11] Artillery => 20 => Kong
+[12] Helicopter => 12 => Kong
+[14] Infantry => 11 => Kong
+
+Kong, ATT:220, DEF:180, HP:290, LVL:1
+[0] Tank, ATT:65, DEF:100, HP:65, LVL:10
+[1] Helicopter, ATT:55, DEF:40, HP:91, LVL:6
+[2] Helicopter, ATT:55, DEF:40, HP:68, LVL:1
+[3] Bomber, ATT:120, DEF:100, HP:76, LVL:1
+[4] Cruiser, ATT:100, DEF:75, HP:86, LVL:7
+[5] Submarine, ATT:105, DEF:65, HP:58, LVL:7
+[6] Artillery, ATT:75, DEF:70, HP:83, LVL:7
+[7] Fighter, ATT:110, DEF:110, HP:63, LVL:9
+[8] Submarine, ATT:105, DEF:65, HP:71, LVL:1
+[9] Infantry, ATT:45, DEF:0, HP:87, LVL:3
+[10] Submarine, ATT:105, DEF:65, HP:72, LVL:4
+[11] Artillery, ATT:75, DEF:70, HP:88, LVL:0
+[12] Helicopter, ATT:55, DEF:40, HP:88, LVL:5
+[13] Infantry, ATT:45, DEF:0, HP:-152, LVL:1
+[14] Infantry, ATT:45, DEF:0, HP:71, LVL:2
+
+Kong => 48 => [5] Submarine
+[0] Tank => 17 => Kong
+[1] Helicopter => 14 => Kong
+[2] Helicopter => 20 => Kong
+[3] Bomber => 14 => Kong
+[4] Cruiser => 26 => Kong
+[5] Submarine => 18 => Kong
+[6] Artillery => 21 => Kong
+[7] Fighter => 19 => Kong
+[8] Submarine => 19 => Kong
+[9] Infantry => 19 => Kong
+[10] Submarine => 22 => Kong
+[11] Artillery => 16 => Kong
+[12] Helicopter => 18 => Kong
+[14] Infantry => 20 => Kong
+
+Kong, ATT:220, DEF:180, HP:27, LVL:2
+[0] Tank, ATT:65, DEF:100, HP:65, LVL:10
+[1] Helicopter, ATT:55, DEF:40, HP:91, LVL:6
+[2] Helicopter, ATT:55, DEF:40, HP:68, LVL:1
+[3] Bomber, ATT:120, DEF:100, HP:76, LVL:1
+[4] Cruiser, ATT:100, DEF:75, HP:86, LVL:7
+[5] Submarine, ATT:105, DEF:65, HP:10, LVL:7
+[6] Artillery, ATT:75, DEF:70, HP:83, LVL:7
+[7] Fighter, ATT:110, DEF:110, HP:63, LVL:9
+[8] Submarine, ATT:105, DEF:65, HP:71, LVL:1
+[9] Infantry, ATT:45, DEF:0, HP:87, LVL:3
+[10] Submarine, ATT:105, DEF:65, HP:72, LVL:4
+[11] Artillery, ATT:75, DEF:70, HP:88, LVL:0
+[12] Helicopter, ATT:55, DEF:40, HP:88, LVL:5
+[13] Infantry, ATT:45, DEF:0, HP:-152, LVL:1
+[14] Infantry, ATT:45, DEF:0, HP:71, LVL:2
+
+Kong => 50 => [5] Submarine
+[0] Tank => 21 => Kong
+[1] Helicopter => 26 => Kong
+
+Kong, ATT:220, DEF:180, HP:-20, LVL:2
+[0] Tank, ATT:65, DEF:100, HP:65, LVL:10
+[1] Helicopter, ATT:55, DEF:40, HP:91, LVL:6
+[2] Helicopter, ATT:55, DEF:40, HP:68, LVL:1
+[3] Bomber, ATT:120, DEF:100, HP:76, LVL:1
+[4] Cruiser, ATT:100, DEF:75, HP:86, LVL:7
+[5] Submarine, ATT:105, DEF:65, HP:-40, LVL:7
+[6] Artillery, ATT:75, DEF:70, HP:83, LVL:7
+[7] Fighter, ATT:110, DEF:110, HP:63, LVL:9
+[8] Submarine, ATT:105, DEF:65, HP:71, LVL:1
+[9] Infantry, ATT:45, DEF:0, HP:87, LVL:3
+[10] Submarine, ATT:105, DEF:65, HP:72, LVL:4
+[11] Artillery, ATT:75, DEF:70, HP:88, LVL:0
+[12] Helicopter, ATT:55, DEF:40, HP:88, LVL:5
+[13] Infantry, ATT:45, DEF:0, HP:-152, LVL:1
+[14] Infantry, ATT:45, DEF:0, HP:71, LVL:2
+
+Winner: Enemy
+Total monster DMG: 301
+Total enemies DMG: 520
+--------------------------------------------------
+EXPECTED:
+Kong, ATT:220, DEF:180, HP:500, LVL:0
+[0] Tank, ATT:65, DEF:100, HP:65, LVL:10
+[1] Helicopter, ATT:55, DEF:40, HP:91, LVL:6
+[2] Helicopter, ATT:55, DEF:40, HP:68, LVL:1
+[3] Bomber, ATT:120, DEF:100, HP:76, LVL:1
+[4] Cruiser, ATT:100, DEF:75, HP:86, LVL:7
+[5] Submarine, ATT:105, DEF:65, HP:58, LVL:7
+[6] Artillery, ATT:75, DEF:70, HP:83, LVL:7
+[7] Fighter, ATT:110, DEF:110, HP:63, LVL:9
+[8] Submarine, ATT:105, DEF:65, HP:71, LVL:1
+[9] Infantry, ATT:45, DEF:0, HP:87, LVL:3
+[10] Submarine, ATT:105, DEF:65, HP:72, LVL:4
+[11] Artillery, ATT:75, DEF:70, HP:88, LVL:0
+[12] Helicopter, ATT:55, DEF:40, HP:88, LVL:5
+[13] Infantry, ATT:45, DEF:0, HP:51, LVL:1
+[14] Infantry, ATT:45, DEF:0, HP:71, LVL:2
+
+Kong => 203 => [13] Infantry
+[0] Tank => 11 => Kong
+[1] Helicopter => 8 => Kong
+[2] Helicopter => 11 => Kong
+[3] Bomber => 18 => Kong
+[4] Cruiser => 14 => Kong
+[5] Submarine => 16 => Kong
+[6] Artillery => 16 => Kong
+[7] Fighter => 23 => Kong
+[8] Submarine => 14 => Kong
+[9] Infantry => 15 => Kong
+[10] Submarine => 21 => Kong
+[11] Artillery => 20 => Kong
+[12] Helicopter => 12 => Kong
+[14] Infantry => 11 => Kong
+
+Kong, ATT:220, DEF:180, HP:290, LVL:1
+[0] Tank, ATT:65, DEF:100, HP:65, LVL:10
+[1] Helicopter, ATT:55, DEF:40, HP:91, LVL:6
+[2] Helicopter, ATT:55, DEF:40, HP:68, LVL:1
+[3] Bomber, ATT:120, DEF:100, HP:76, LVL:1
+[4] Cruiser, ATT:100, DEF:75, HP:86, LVL:7
+[5] Submarine, ATT:105, DEF:65, HP:58, LVL:7
+[6] Artillery, ATT:75, DEF:70, HP:83, LVL:7
+[7] Fighter, ATT:110, DEF:110, HP:63, LVL:9
+[8] Submarine, ATT:105, DEF:65, HP:71, LVL:1
+[9] Infantry, ATT:45, DEF:0, HP:87, LVL:3
+[10] Submarine, ATT:105, DEF:65, HP:72, LVL:4
+[11] Artillery, ATT:75, DEF:70, HP:88, LVL:0
+[12] Helicopter, ATT:55, DEF:40, HP:88, LVL:5
+[13] Infantry, ATT:45, DEF:0, HP:-152, LVL:1
+[14] Infantry, ATT:45, DEF:0, HP:71, LVL:2
+
+Kong => 48 => [5] Submarine
+[0] Tank => 17 => Kong
+[1] Helicopter => 14 => Kong
+[2] Helicopter => 20 => Kong
+[3] Bomber => 14 => Kong
+[4] Cruiser => 26 => Kong
+[5] Submarine => 18 => Kong
+[6] Artillery => 21 => Kong
+[7] Fighter => 19 => Kong
+[8] Submarine => 19 => Kong
+[9] Infantry => 19 => Kong
+[10] Submarine => 22 => Kong
+[11] Artillery => 16 => Kong
+[12] Helicopter => 18 => Kong
+[14] Infantry => 20 => Kong
+
+Kong, ATT:220, DEF:180, HP:27, LVL:2
+[0] Tank, ATT:65, DEF:100, HP:65, LVL:10
+[1] Helicopter, ATT:55, DEF:40, HP:91, LVL:6
+[2] Helicopter, ATT:55, DEF:40, HP:68, LVL:1
+[3] Bomber, ATT:120, DEF:100, HP:76, LVL:1
+[4] Cruiser, ATT:100, DEF:75, HP:86, LVL:7
+[5] Submarine, ATT:105, DEF:65, HP:10, LVL:7
+[6] Artillery, ATT:75, DEF:70, HP:83, LVL:7
+[7] Fighter, ATT:110, DEF:110, HP:63, LVL:9
+[8] Submarine, ATT:105, DEF:65, HP:71, LVL:1
+[9] Infantry, ATT:45, DEF:0, HP:87, LVL:3
+[10] Submarine, ATT:105, DEF:65, HP:72, LVL:4
+[11] Artillery, ATT:75, DEF:70, HP:88, LVL:0
+[12] Helicopter, ATT:55, DEF:40, HP:88, LVL:5
+[13] Infantry, ATT:45, DEF:0, HP:-152, LVL:1
+[14] Infantry, ATT:45, DEF:0, HP:71, LVL:2
+
+Kong => 50 => [5] Submarine
+[0] Tank => 21 => Kong
+[1] Helicopter => 26 => Kong
+
+Kong, ATT:220, DEF:180, HP:-20, LVL:2
+[0] Tank, ATT:65, DEF:100, HP:65, LVL:10
+[1] Helicopter, ATT:55, DEF:40, HP:91, LVL:6
+[2] Helicopter, ATT:55, DEF:40, HP:68, LVL:1
+[3] Bomber, ATT:120, DEF:100, HP:76, LVL:1
+[4] Cruiser, ATT:100, DEF:75, HP:86, LVL:7
+[5] Submarine, ATT:105, DEF:65, HP:-40, LVL:7
+[6] Artillery, ATT:75, DEF:70, HP:83, LVL:7
+[7] Fighter, ATT:110, DEF:110, HP:63, LVL:9
+[8] Submarine, ATT:105, DEF:65, HP:71, LVL:1
+[9] Infantry, ATT:45, DEF:0, HP:87, LVL:3
+[10] Submarine, ATT:105, DEF:65, HP:72, LVL:4
+[11] Artillery, ATT:75, DEF:70, HP:88, LVL:0
+[12] Helicopter, ATT:55, DEF:40, HP:88, LVL:5
+[13] Infantry, ATT:45, DEF:0, HP:-152, LVL:1
+[14] Infantry, ATT:45, DEF:0, HP:71, LVL:2
+
+Winner: Enemy
+Total monster DMG: 301
+Total enemies DMG: 520

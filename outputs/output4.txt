@@ -1,0 +1,157 @@
+OUTPUT:
+Kong, ATT:220, DEF:180, HP:500, LVL:0
+[0] Cruiser, ATT:100, DEF:75, HP:51, LVL:6
+[1] Tank, ATT:65, DEF:100, HP:65, LVL:9
+[2] Fighter, ATT:110, DEF:110, HP:78, LVL:9
+[3] Submarine, ATT:105, DEF:65, HP:71, LVL:1
+
+Kong => 67 => [0] Cruiser
+[1] Tank => 20 => Kong
+[2] Fighter => 17 => Kong
+[3] Submarine => 15 => Kong
+
+Kong, ATT:220, DEF:180, HP:448, LVL:1
+[0] Cruiser, ATT:100, DEF:75, HP:-16, LVL:6
+[1] Tank, ATT:65, DEF:100, HP:65, LVL:9
+[2] Fighter, ATT:110, DEF:110, HP:78, LVL:9
+[3] Submarine, ATT:105, DEF:65, HP:71, LVL:1
+
+Kong => 32 => [1] Tank
+[1] Tank => 12 => Kong
+[2] Fighter => 13 => Kong
+[3] Submarine => 13 => Kong
+
+Kong, ATT:220, DEF:180, HP:410, LVL:2
+[0] Cruiser, ATT:100, DEF:75, HP:-16, LVL:6
+[1] Tank, ATT:65, DEF:100, HP:33, LVL:9
+[2] Fighter, ATT:110, DEF:110, HP:78, LVL:9
+[3] Submarine, ATT:105, DEF:65, HP:71, LVL:1
+
+Kong => 51 => [1] Tank
+[2] Fighter => 31 => Kong
+[3] Submarine => 14 => Kong
+
+Kong, ATT:220, DEF:180, HP:365, LVL:3
+[0] Cruiser, ATT:100, DEF:75, HP:-16, LVL:6
+[1] Tank, ATT:65, DEF:100, HP:-18, LVL:9
+[2] Fighter, ATT:110, DEF:110, HP:78, LVL:9
+[3] Submarine, ATT:105, DEF:65, HP:71, LVL:1
+
+Kong => 48 => [3] Submarine
+[2] Fighter => 24 => Kong
+[3] Submarine => 13 => Kong
+
+Kong, ATT:220, DEF:180, HP:328, LVL:4
+[0] Cruiser, ATT:100, DEF:75, HP:-16, LVL:6
+[1] Tank, ATT:65, DEF:100, HP:-18, LVL:9
+[2] Fighter, ATT:110, DEF:110, HP:78, LVL:9
+[3] Submarine, ATT:105, DEF:65, HP:23, LVL:1
+
+Kong => 106 => [3] Submarine
+[2] Fighter => 24 => Kong
+
+Kong, ATT:220, DEF:180, HP:304, LVL:5
+[0] Cruiser, ATT:100, DEF:75, HP:-16, LVL:6
+[1] Tank, ATT:65, DEF:100, HP:-18, LVL:9
+[2] Fighter, ATT:110, DEF:110, HP:78, LVL:9
+[3] Submarine, ATT:105, DEF:65, HP:-83, LVL:1
+
+Kong => 44 => [2] Fighter
+[2] Fighter => 13 => Kong
+
+Kong, ATT:220, DEF:180, HP:291, LVL:6
+[0] Cruiser, ATT:100, DEF:75, HP:-16, LVL:6
+[1] Tank, ATT:65, DEF:100, HP:-18, LVL:9
+[2] Fighter, ATT:110, DEF:110, HP:34, LVL:9
+[3] Submarine, ATT:105, DEF:65, HP:-83, LVL:1
+
+Kong => 64 => [2] Fighter
+
+Kong, ATT:220, DEF:180, HP:291, LVL:7
+[0] Cruiser, ATT:100, DEF:75, HP:-16, LVL:6
+[1] Tank, ATT:65, DEF:100, HP:-18, LVL:9
+[2] Fighter, ATT:110, DEF:110, HP:-30, LVL:9
+[3] Submarine, ATT:105, DEF:65, HP:-83, LVL:1
+
+Winner: Kong
+Total monster DMG: 412
+Total enemies DMG: 209
+--------------------------------------------------
+EXPECTED:
+Kong, ATT:220, DEF:180, HP:500, LVL:0
+[0] Cruiser, ATT:100, DEF:75, HP:51, LVL:6
+[1] Tank, ATT:65, DEF:100, HP:65, LVL:9
+[2] Fighter, ATT:110, DEF:110, HP:78, LVL:9
+[3] Submarine, ATT:105, DEF:65, HP:71, LVL:1
+
+Kong => 67 => [0] Cruiser
+[1] Tank => 20 => Kong
+[2] Fighter => 17 => Kong
+[3] Submarine => 15 => Kong
+
+Kong, ATT:220, DEF:180, HP:448, LVL:1
+[0] Cruiser, ATT:100, DEF:75, HP:-16, LVL:6
+[1] Tank, ATT:65, DEF:100, HP:65, LVL:9
+[2] Fighter, ATT:110, DEF:110, HP:78, LVL:9
+[3] Submarine, ATT:105, DEF:65, HP:71, LVL:1
+
+Kong => 32 => [1] Tank
+[1] Tank => 12 => Kong
+[2] Fighter => 13 => Kong
+[3] Submarine => 13 => Kong
+
+Kong, ATT:220, DEF:180, HP:410, LVL:2
+[0] Cruiser, ATT:100, DEF:75, HP:-16, LVL:6
+[1] Tank, ATT:65, DEF:100, HP:33, LVL:9
+[2] Fighter, ATT:110, DEF:110, HP:78, LVL:9
+[3] Submarine, ATT:105, DEF:65, HP:71, LVL:1
+
+Kong => 51 => [1] Tank
+[2] Fighter => 31 => Kong
+[3] Submarine => 14 => Kong
+
+Kong, ATT:220, DEF:180, HP:365, LVL:3
+[0] Cruiser, ATT:100, DEF:75, HP:-16, LVL:6
+[1] Tank, ATT:65, DEF:100, HP:-18, LVL:9
+[2] Fighter, ATT:110, DEF:110, HP:78, LVL:9
+[3] Submarine, ATT:105, DEF:65, HP:71, LVL:1
+
+Kong => 48 => [3] Submarine
+[2] Fighter => 24 => Kong
+[3] Submarine => 13 => Kong
+
+Kong, ATT:220, DEF:180, HP:328, LVL:4
+[0] Cruiser, ATT:100, DEF:75, HP:-16, LVL:6
+[1] Tank, ATT:65, DEF:100, HP:-18, LVL:9
+[2] Fighter, ATT:110, DEF:110, HP:78, LVL:9
+[3] Submarine, ATT:105, DEF:65, HP:23, LVL:1
+
+Kong => 106 => [3] Submarine
+[2] Fighter => 24 => Kong
+
+Kong, ATT:220, DEF:180, HP:304, LVL:5
+[0] Cruiser, ATT:100, DEF:75, HP:-16, LVL:6
+[1] Tank, ATT:65, DEF:100, HP:-18, LVL:9
+[2] Fighter, ATT:110, DEF:110, HP:78, LVL:9
+[3] Submarine, ATT:105, DEF:65, HP:-83, LVL:1
+
+Kong => 44 => [2] Fighter
+[2] Fighter => 13 => Kong
+
+Kong, ATT:220, DEF:180, HP:291, LVL:6
+[0] Cruiser, ATT:100, DEF:75, HP:-16, LVL:6
+[1] Tank, ATT:65, DEF:100, HP:-18, LVL:9
+[2] Fighter, ATT:110, DEF:110, HP:34, LVL:9
+[3] Submarine, ATT:105, DEF:65, HP:-83, LVL:1
+
+Kong => 64 => [2] Fighter
+
+Kong, ATT:220, DEF:180, HP:291, LVL:7
+[0] Cruiser, ATT:100, DEF:75, HP:-16, LVL:6
+[1] Tank, ATT:65, DEF:100, HP:-18, LVL:9
+[2] Fighter, ATT:110, DEF:110, HP:-30, LVL:9
+[3] Submarine, ATT:105, DEF:65, HP:-83, LVL:1
+
+Winner: Kong
+Total monster DMG: 412
+Total enemies DMG: 209

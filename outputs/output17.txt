@@ -1,0 +1,333 @@
+OUTPUT:
+Mechagodzilla, ATT:230, DEF:230, HP:500, LVL:0
+[0] Cruiser, ATT:100, DEF:75, HP:94, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:59, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:60, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:64, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:81, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:73, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:55, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:60, LVL:1
+
+Mechagodzilla => 58 => [6] Tank
+[0] Cruiser => 10 => Mechagodzilla
+[1] Submarine => 12 => Mechagodzilla
+[2] Infantry => 9 => Mechagodzilla
+[3] Helicopter => 9 => Mechagodzilla
+[4] Infantry => 10 => Mechagodzilla
+[5] Helicopter => 9 => Mechagodzilla
+[7] Infantry => 12 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:429, LVL:1
+[0] Cruiser, ATT:100, DEF:75, HP:94, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:59, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:60, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:64, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:81, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:73, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:60, LVL:1
+
+Mechagodzilla => 109 => [1] Submarine
+[0] Cruiser => 23 => Mechagodzilla
+[2] Infantry => 14 => Mechagodzilla
+[3] Helicopter => 13 => Mechagodzilla
+[4] Infantry => 12 => Mechagodzilla
+[5] Helicopter => 15 => Mechagodzilla
+[7] Infantry => 9 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:343, LVL:2
+[0] Cruiser, ATT:100, DEF:75, HP:94, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:-50, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:60, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:64, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:81, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:73, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:60, LVL:1
+
+Mechagodzilla => 126 => [2] Infantry
+[0] Cruiser => 30 => Mechagodzilla
+[3] Helicopter => 13 => Mechagodzilla
+[4] Infantry => 15 => Mechagodzilla
+[5] Helicopter => 14 => Mechagodzilla
+[7] Infantry => 13 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:258, LVL:3
+[0] Cruiser, ATT:100, DEF:75, HP:94, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:-50, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:-66, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:64, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:81, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:73, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:60, LVL:1
+
+Mechagodzilla => 145 => [7] Infantry
+[0] Cruiser => 14 => Mechagodzilla
+[3] Helicopter => 12 => Mechagodzilla
+[4] Infantry => 21 => Mechagodzilla
+[5] Helicopter => 12 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:199, LVL:4
+[0] Cruiser, ATT:100, DEF:75, HP:94, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:-50, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:-66, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:64, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:81, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:73, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:-85, LVL:1
+
+Mechagodzilla => 93 => [3] Helicopter
+[0] Cruiser => 19 => Mechagodzilla
+[4] Infantry => 11 => Mechagodzilla
+[5] Helicopter => 13 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:156, LVL:5
+[0] Cruiser, ATT:100, DEF:75, HP:94, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:-50, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:-66, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:-29, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:81, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:73, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:-85, LVL:1
+
+Mechagodzilla => 52 => [5] Helicopter
+[0] Cruiser => 25 => Mechagodzilla
+[4] Infantry => 16 => Mechagodzilla
+[5] Helicopter => 11 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:104, LVL:6
+[0] Cruiser, ATT:100, DEF:75, HP:94, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:-50, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:-66, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:-29, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:81, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:21, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:-85, LVL:1
+
+Mechagodzilla => 83 => [5] Helicopter
+[0] Cruiser => 17 => Mechagodzilla
+[4] Infantry => 18 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:69, LVL:7
+[0] Cruiser, ATT:100, DEF:75, HP:94, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:-50, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:-66, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:-29, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:81, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:-62, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:-85, LVL:1
+
+Mechagodzilla => 86 => [4] Infantry
+[0] Cruiser => 19 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:50, LVL:8
+[0] Cruiser, ATT:100, DEF:75, HP:94, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:-50, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:-66, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:-29, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:-5, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:-62, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:-85, LVL:1
+
+Mechagodzilla => 39 => [0] Cruiser
+[0] Cruiser => 17 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:33, LVL:9
+[0] Cruiser, ATT:100, DEF:75, HP:55, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:-50, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:-66, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:-29, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:-5, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:-62, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:-85, LVL:1
+
+Mechagodzilla => 58 => [0] Cruiser
+
+Mechagodzilla, ATT:230, DEF:230, HP:33, LVL:10
+[0] Cruiser, ATT:100, DEF:75, HP:-3, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:-50, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:-66, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:-29, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:-5, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:-62, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:-85, LVL:1
+
+Winner: Mechagodzilla
+Total monster DMG: 849
+Total enemies DMG: 467
+--------------------------------------------------
+EXPECTED:
+Mechagodzilla, ATT:230, DEF:230, HP:500, LVL:0
+[0] Cruiser, ATT:100, DEF:75, HP:94, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:59, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:60, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:64, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:81, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:73, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:55, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:60, LVL:1
+
+Mechagodzilla => 58 => [6] Tank
+[0] Cruiser => 10 => Mechagodzilla
+[1] Submarine => 12 => Mechagodzilla
+[2] Infantry => 9 => Mechagodzilla
+[3] Helicopter => 9 => Mechagodzilla
+[4] Infantry => 10 => Mechagodzilla
+[5] Helicopter => 9 => Mechagodzilla
+[7] Infantry => 12 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:429, LVL:1
+[0] Cruiser, ATT:100, DEF:75, HP:94, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:59, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:60, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:64, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:81, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:73, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:60, LVL:1
+
+Mechagodzilla => 109 => [1] Submarine
+[0] Cruiser => 23 => Mechagodzilla
+[2] Infantry => 14 => Mechagodzilla
+[3] Helicopter => 13 => Mechagodzilla
+[4] Infantry => 12 => Mechagodzilla
+[5] Helicopter => 15 => Mechagodzilla
+[7] Infantry => 9 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:343, LVL:2
+[0] Cruiser, ATT:100, DEF:75, HP:94, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:-50, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:60, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:64, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:81, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:73, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:60, LVL:1
+
+Mechagodzilla => 126 => [2] Infantry
+[0] Cruiser => 30 => Mechagodzilla
+[3] Helicopter => 13 => Mechagodzilla
+[4] Infantry => 15 => Mechagodzilla
+[5] Helicopter => 14 => Mechagodzilla
+[7] Infantry => 13 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:258, LVL:3
+[0] Cruiser, ATT:100, DEF:75, HP:94, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:-50, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:-66, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:64, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:81, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:73, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:60, LVL:1
+
+Mechagodzilla => 145 => [7] Infantry
+[0] Cruiser => 14 => Mechagodzilla
+[3] Helicopter => 12 => Mechagodzilla
+[4] Infantry => 21 => Mechagodzilla
+[5] Helicopter => 12 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:199, LVL:4
+[0] Cruiser, ATT:100, DEF:75, HP:94, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:-50, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:-66, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:64, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:81, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:73, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:-85, LVL:1
+
+Mechagodzilla => 93 => [3] Helicopter
+[0] Cruiser => 19 => Mechagodzilla
+[4] Infantry => 11 => Mechagodzilla
+[5] Helicopter => 13 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:156, LVL:5
+[0] Cruiser, ATT:100, DEF:75, HP:94, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:-50, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:-66, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:-29, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:81, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:73, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:-85, LVL:1
+
+Mechagodzilla => 52 => [5] Helicopter
+[0] Cruiser => 25 => Mechagodzilla
+[4] Infantry => 16 => Mechagodzilla
+[5] Helicopter => 11 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:104, LVL:6
+[0] Cruiser, ATT:100, DEF:75, HP:94, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:-50, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:-66, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:-29, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:81, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:21, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:-85, LVL:1
+
+Mechagodzilla => 83 => [5] Helicopter
+[0] Cruiser => 17 => Mechagodzilla
+[4] Infantry => 18 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:69, LVL:7
+[0] Cruiser, ATT:100, DEF:75, HP:94, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:-50, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:-66, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:-29, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:81, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:-62, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:-85, LVL:1
+
+Mechagodzilla => 86 => [4] Infantry
+[0] Cruiser => 19 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:50, LVL:8
+[0] Cruiser, ATT:100, DEF:75, HP:94, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:-50, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:-66, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:-29, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:-5, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:-62, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:-85, LVL:1
+
+Mechagodzilla => 39 => [0] Cruiser
+[0] Cruiser => 17 => Mechagodzilla
+
+Mechagodzilla, ATT:230, DEF:230, HP:33, LVL:9
+[0] Cruiser, ATT:100, DEF:75, HP:55, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:-50, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:-66, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:-29, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:-5, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:-62, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:-85, LVL:1
+
+Mechagodzilla => 58 => [0] Cruiser
+
+Mechagodzilla, ATT:230, DEF:230, HP:33, LVL:10
+[0] Cruiser, ATT:100, DEF:75, HP:-3, LVL:8
+[1] Submarine, ATT:105, DEF:65, HP:-50, LVL:3
+[2] Infantry, ATT:45, DEF:0, HP:-66, LVL:9
+[3] Helicopter, ATT:55, DEF:40, HP:-29, LVL:6
+[4] Infantry, ATT:45, DEF:0, HP:-5, LVL:7
+[5] Helicopter, ATT:55, DEF:40, HP:-62, LVL:3
+[6] Tank, ATT:65, DEF:100, HP:-3, LVL:6
+[7] Infantry, ATT:45, DEF:0, HP:-85, LVL:1
+
+Winner: Mechagodzilla
+Total monster DMG: 849
+Total enemies DMG: 467
