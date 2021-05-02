@@ -3,8 +3,13 @@ package tester
 import (
 	"fmt"
 	"os"
-	"strings"
 	"tester/testcase"
+)
+
+const (
+	OUTPUT_HEADER   = "===================== OUTPUT =====================\n"
+	EXPECTED_HEADER = "==================== EXPECTED ====================\n"
+	DIFF_HEADER     = "====================== DIFF ======================\n"
 )
 
 const FOLDER_NAME = "outputs"
@@ -19,13 +24,12 @@ func saveTestResults(results []testcase.Result, doSave bool) {
 }
 
 func saveResultToFile(result testcase.Result) {
-	output := "OUTPUT:\n" + result.Output + "\n"
-	expect := "EXPECTED:\n" + result.TestCase.Expect
+	output := OUTPUT_HEADER + result.Output + "\n"
+	expect := EXPECTED_HEADER + result.TestCase.Expect
 	file := createFile(fmt.Sprintf("%s/output%d.txt", FOLDER_NAME, result.TestCase.ID))
 	defer file.Close()
 	if file != nil {
 		writeString(file, output)
-		writeString(file, strings.Repeat("-", 50)+"\n")
 		writeString(file, expect)
 	}
 }

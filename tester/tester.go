@@ -1,7 +1,6 @@
 package tester
 
 import (
-	"strings"
 	"tester/platform"
 	"tester/testcase"
 )
@@ -39,7 +38,7 @@ func RunTester(testCases []testcase.TestCase, executable string) Tester {
 
 func checkResultSuccess(result *testcase.Result) ResultSuccess {
 	var success ResultSuccess = SUCCESSFUL
-	if platform.StrCmp(result.TestCase.Expect, strings.TrimRight(result.Output, " ")) == false {
+	if platform.StrCmp(result.TestCase.Expect, result.Output) == false {
 		success |= OUTPUT_MISMATCH
 	}
 	if result.TestCase.Exitcode != result.ExitCode {
